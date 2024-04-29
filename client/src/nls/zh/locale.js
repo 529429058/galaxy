@@ -190,9 +190,8 @@ define({
     "Delete datasets": "删除数据集",
     "Undelete datasets": "取消删除数据集",
     "Permanently delete datasets": "永久删除数据集",
-    "This will permanently remove the data in your datasets. Are you sure?":
-        "本次操作将从您的数据集中用久移除数据。请再次确定？",
-
+    "This will permanently remove the data in your datasets. Are you sure?": "本次操作将从您的数据集中用久移除数据。请再次确定？",
+    "With {{ numSelected }} selected...": "已选择 {{ numSelected }} 项",
     // ---- history-view-annotated
     Dataset: "数据集",
     Annotation: "备注",
