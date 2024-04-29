@@ -343,7 +343,9 @@ defineExpose({
             </div>
             <div v-else>
                 <div v-if="!isRunning">
-                    You added {{ counterAnnounce }} file(s) to the queue. Add more files or click 'Start' to proceed.
+                    <span v-localize>You added</span>
+                    <span v-localize> {{ counterAnnounce }} </span>
+                    <span v-localize>file(s) to the queue. Add more files or click 'Start' to proceed.</span>
                 </div>
                 <div v-else>Please wait...{{ counterAnnounce }} out of {{ counterRunning }} remaining...</div>
             </div>
@@ -416,7 +418,7 @@ defineExpose({
         <div class="upload-buttons d-flex justify-content-end">
             <BButton id="btn-local" :disabled="!enableSources" @click="uploadFile.click()">
                 <FontAwesomeIcon icon="fa-laptop" />
-                <span v-localize>Choose local file</span>
+                <span v-localize>Choose local files</span>
             </BButton>
             <BButton v-if="hasRemoteFiles" id="btn-remote-files" :disabled="!enableSources" @click="eventRemoteFiles">
                 <FontAwesomeIcon icon="fa-folder-open" />
