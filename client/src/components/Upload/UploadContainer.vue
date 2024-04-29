@@ -163,7 +163,7 @@ defineExpose({
 
 <template>
     <BTabs v-if="ready">
-        <BTab v-if="showRegular" id="regular" :title="localize(Regular) | l" button-id="tab-title-link-regular">
+        <BTab v-if="showRegular" id="regular" :title="localize(Regular)" button-id="tab-title-link-regular">
             <DefaultBox
                 ref="regular"
                 :chunk-upload-size="chunkUploadSize"
