@@ -484,9 +484,11 @@ define({
     "Upload Data": "上传数据",
     "Upload from Disk or Web": "从磁盘或网络上传",
     "Download from web or upload from disk": "从网页获取或者从本地磁盘上传数据",
-    Collection: "集合数据",
-    Composite: "复合数据",
     Regular: "常规数据",
+    Composite: "复合数据",
+    Collection: "集合数据",
+    "Rule-based": "基于规则",
+    
     // ---------------------------------------------------------------------------- default-row
     //"Upload configuration": "上传配置",
     "Download data from the web by entering URLs (one per line) or directly paste content.": "通过输入网址（每行一个）从网络下载数据，或者直接粘贴内容。",
