@@ -10,7 +10,11 @@
                 </span>
             </template>
             <b-dropdown-text>
-                <span v-localize data-description="selected count">With {{ numSelected }} selected...</span>
+                <span v-localize data-description="selected count">
+                    <span v-localize>With</span>
+                    <span v-localize>{{ numSelected }}</span>
+                    <span v-localize>selected...</span>
+                </span>
             </b-dropdown-text>
             <b-dropdown-item v-if="canUnhideSelection" v-b-modal:show-selected-content data-description="unhide option">
                 <span v-localize>Unhide</span>

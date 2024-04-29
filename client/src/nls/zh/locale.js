@@ -42,7 +42,7 @@ define({
     "Histories shared with me": "分享给我的历史",
     Pages: "我的页面",
     Visualizations: "我的可视化",
-    "Workflow Invocations":"流程调用",
+    "Workflow Invocations": "流程调用",
     "Galaxy Help": "帮助",
     "Community Hub": "社区",
     About: "关于",
@@ -50,7 +50,7 @@ define({
     "Sign Out": "退出",
 
     //Tooltip
-    "Tools and Current History":"工具及当前历史",
+    "Tools and Current History": "工具及当前历史",
     "Chain tools into workflows": "将工具链接到流程中",
     "Visualize datasets": "数据集可视化",
     "Account and saved data": "账号及数据保存",
@@ -191,7 +191,10 @@ define({
     "Undelete datasets": "取消删除数据集",
     "Permanently delete datasets": "永久删除数据集",
     "This will permanently remove the data in your datasets. Are you sure?": "本次操作将从您的数据集中用久移除数据。请再次确定？",
-    "With {{ numSelected }} selected...": "已选择 {{ numSelected }} 项",
+    //"With {{ numSelected }} selected...": "已选择 {{ numSelected }} 项",
+    "With": "已选择",
+    "selected...": "项",
+    
     // ---- history-view-annotated
     Dataset: "数据集",
     Annotation: "备注",
@@ -414,7 +417,7 @@ define({
 
     "Associate OpenIDs with your account.": "把 OpenIDs 和您的账号进行关联。",
     "Enable or disable the communication feature to chat with other users.": "启用或禁用与其他用户聊天的通信功能。",
-        "Manage OpenIDs": "管理 OpenIDs",
+    "Manage OpenIDs": "管理 OpenIDs",
     "Change communication settings": "修改通信设置",
 
     // ---------------------------------------------------------------------------- storage dashboard
