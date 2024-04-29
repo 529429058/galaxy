@@ -488,7 +488,7 @@ define({
     Composite: "复合数据",
     Collection: "集合数据",
     "Rule-based": "基于规则",
-    "Type (set all): "类型（所有文件）：",
+    "Type (set all):": "类型（所有文件）：",
     "Reference (set all):": "参考基因组（所有文件）：",
     "Composite Type:": "复合类型：",
     "Reference:": "参考基因组：",
