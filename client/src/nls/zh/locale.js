@@ -497,7 +497,6 @@ define({
 
     // ---------------------------------------------------------------------------- upload-button
     "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
-    
     // ---------------------------------------------------------------------------- default-row
     //"Upload configuration": "上传配置",
     "Download data from the web by entering URLs (one per line) or directly paste content.": "通过输入网址（每行一个）从网络下载数据，或者直接粘贴内容。",
@@ -522,6 +521,7 @@ define({
     "Select a composite type": "选择一种复合类型",
     // ---------------------------------------------------------------------------- rule-based
     "Insert tabular source data to extract collection files and metadata.": "插入表格源数据以提取集合文件和元数据。",
+    "Insert tabular source data here.": "在这里插入表格源数据。",
     "Paste data": "粘贴数据",
     "Choose dataset": "选择数据集",
     // Choose remote files/Build/Reset/Close, defined elsewhere
