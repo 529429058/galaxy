@@ -488,6 +488,15 @@ define({
     Composite: "复合数据",
     Collection: "集合数据",
     "Rule-based": "基于规则",
+    "Type (set all): "类型（所有文件）：",
+    "Reference (set all):": "参考基因组（所有文件）：",
+    "Composite Type:": "复合类型：",
+    "Reference:": "参考基因组：",
+    "Collection:": "集合：",
+    "Upload type:": "上传类型：",
+
+    // ---------------------------------------------------------------------------- upload-button
+    "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
     
     // ---------------------------------------------------------------------------- default-row
     //"Upload configuration": "上传配置",
@@ -603,8 +612,6 @@ define({
     "Dataset collection": false,
     "Multiple datasets": false,
     "Single dataset": false,
-    // ---------------------------------------------------------------------------- upload-button
-    "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
     // ---------------------------------------------------------------------------- workflow_editor_tests
     "tool tooltip": false,
     // ---------------------------------------------------------------------------- register and log in
