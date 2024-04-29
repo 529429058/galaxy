@@ -494,6 +494,8 @@ define({
     "Reference:": "参考基因组：",
     "Collection:": "集合：",
     "Upload type:": "上传类型：",
+    "There is no description available for this file extension.": "这种文件扩展名没有可用的描述。",
+    "This system will try to detect the file type automatically. If your file is not detected properly as one of the known formats, it most likely means that it has some format problems (e.g., different number of columns on different rows). You can still coerce the system to set your data to the format you think it should be.  You can also upload compressed files, which will automatically be decompressed.": "尝试自动检测文件类型。如果您的文件没有被正确地识别为已知格式之一，很可能意味着它存在一些格式问题（例如，不同行的列数不同）。您仍然可以强制系统将您的数据设置为您认为它应该是的格式。您也可以上传压缩文件，这些文件将自动被解压缩。",
 
     // ---------------------------------------------------------------------------- upload-button
     "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
