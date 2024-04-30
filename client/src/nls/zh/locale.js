@@ -151,6 +151,8 @@ define({
     "Import from File": "从文件导入",
     Webhooks: false,
 
+    "of": "/",
+    "selected": "已选择",
     // ---- history-model
     // ---- history-view
     "This history is empty": "您的历史记录为空",

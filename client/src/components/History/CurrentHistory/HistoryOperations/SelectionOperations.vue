@@ -6,7 +6,7 @@
                     All <b>{{ totalItemsInQuery }}</b> selected
                 </span>
                 <span v-else data-test-id="num-active-selected">
-                    <b>{{ selectionSize }}</b> of {{ totalItemsInQuery }} selected
+                    <b>{{ selectionSize }}</b> {{ localize("of") }} {{ totalItemsInQuery }} {{ localize("selected") }}
                 </span>
             </template>
             <b-dropdown-text>
