@@ -10,7 +10,7 @@
                 </span>
             </template>
             <b-dropdown-text>
-                <span v-localize data-description="selected count">
+                <span data-description="selected count">
                     <span v-localize>With</span>
                     <span v-localize>{{ numSelected }}</span>
                     <span v-localize>selected...</span>

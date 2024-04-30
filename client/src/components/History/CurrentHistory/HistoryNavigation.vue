@@ -146,7 +146,11 @@ function userTitle(title: string) {
                             <span>Fetching histories from server</span>
                         </div>
 
-                        <span v-else>You have {{ totalHistoryCount }} histories.</span>
+                        <span v-else>
+                            <span v-localize>You have</span>
+                            <span v-localize>{{ totalHistoryCount }}</span>
+                            <span v-localize>histories.</span>
+                        </span>
                     </BDropdownText>
 
                     <BDropdownItem
