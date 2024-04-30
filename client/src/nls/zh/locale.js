@@ -193,7 +193,7 @@ define({
     "This will permanently remove the data in your datasets. Are you sure?": "本次操作将从您的数据集中用久移除数据。请再次确定？",
     //"With {{ numSelected }} selected...": "已选择 {{ numSelected }} 项",
     "With": "已选择",
-    "selected...": "项",
+    "selected...": "个数据集",
     
     // ---- history-view-annotated
     Dataset: "数据集",
