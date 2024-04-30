@@ -133,7 +133,7 @@ function userTitle(title: string) {
                     variant="link"
                     toggle-class="text-decoration-none"
                     menu-class="history-options-button-menu"
-                    :title="localize('History options')"
+                    :title="userTitle('History options')"
                     data-description="history options">
                     <template v-slot:button-content>
                         <FontAwesomeIcon fixed-width :icon="faBars" />
