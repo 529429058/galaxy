@@ -100,7 +100,7 @@ function userTitle(title: string) {
 <template>
     <div>
         <nav class="d-flex justify-content-between mx-3 my-2" aria-label="current history management">
-            <h2 class="m-1 h-sm">History</h2>
+            <h2 class="m-1 h-sm" v-localize>History</h2>
 
             <BButtonGroup>
                 <BButton
@@ -133,7 +133,7 @@ function userTitle(title: string) {
                     variant="link"
                     toggle-class="text-decoration-none"
                     menu-class="history-options-button-menu"
-                    title="History options"
+                    :title="localize('History options')"
                     data-description="history options">
                     <template v-slot:button-content>
                         <FontAwesomeIcon fixed-width :icon="faBars" />
