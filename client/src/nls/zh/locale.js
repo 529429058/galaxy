@@ -166,11 +166,11 @@ define({
     "Name:": "姓名:",
     //----------------------------------------Collections/common/CollectionEditView.vue
     Convert: "转换",
-    Database/Build: "数据库建立",
+    "Database/Build": "数据库建立",
     Datatypes: "数据类型",
     "Edit Collection Attributes": "集合属性",
     //----------------------------------------Collections/common/DatabaseEditTab.vue
-    // Database/Build: "数据库建立",
+    // "Database/Build": "数据库建立",
     // Save: "保存",
     //----------------------------------------Collections/common/SuitableConvertersTab.vue
     "Convert Collection": "转换集合",
@@ -610,7 +610,7 @@ define({
     "No items to clear": "没有要清除的项目",
     "Review and clear": "查看并清除",
     //----------------------------------------User/DiskUsage/Management/Cleanup/CleanupResultDialog.vue
-    Congratulations!: "恭喜您！",
+    "Congratulations!": "恭喜您！",
     "Freeing up some space...": "正在释放一些空间...",
     // Name: "姓名",
     Reason: "原因",
