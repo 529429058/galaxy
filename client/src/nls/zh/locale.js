@@ -1,9 +1,13 @@
 /** zh localization */
-define({    "No matching activities found.": "未找到匹配的活动。",
+define({
+    //----------------------------------------ActivityBar/ActivitySettings.vue
+    "No matching activities found.": "未找到匹配的活动。",
+    //----------------------------------------Annotation.vue
     "Edit annotation...": "编辑批注",
     // "Edit annotation...": "编辑批注",
-    ".": ".",
-    // ".": ".",
+    //----------------------------------------Collections/ListCollectionCreator.vue
+    ".": "。",
+    // ".": "。",
     "At least one element is needed for the collection. You may need to": "集合至少需要一个元素。您可能需要",
     Cancel: "关闭",
     // Cancel: "关闭",
@@ -44,10 +48,12 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     them: "主题",
     "to begin again as if you had just opened the interface.": "重新开始，就好像您刚刚打开了界面一样。",
     "to sort datasets alphabetically.": "按字母顺序对数据集进行排序。",
+    //----------------------------------------Collections/ListDatasetCollectionElementView.vue
     "Click to rename": "点击重命名",
     // Discard: "放弃",
     "Remove this dataset from the list": "从列表中删除此数据集",
-    // ".": ".",
+    //----------------------------------------Collections/PairCollectionCreator.vue
+    // ".": "。",
     // Cancel: "关闭",
     // Cancel: "关闭",
     // Cancel: "关闭",
@@ -75,8 +81,10 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "link to make your forward dataset the reverse and the reverse dataset forward": "链接，使您的正向数据集成为反向数据集，反向数据集成为正向数据集",
     // name: "名称",
     reverse: "相反",
+    //----------------------------------------Collections/PairedElementView.vue
     // "Click to rename": "点击重命名",
     Unpair: "取消配对",
+    //----------------------------------------Collections/PairedListCollectionCreator.vue
     ". (Note: you do not have to pair all unpaired datasets to finish.)": "。（注意：您不必将所有未配对的数据集配对即可完成。）",
     "At least two elements are needed for the collection. You may need to": "集合至少需要两个元素。您可能需要",
     "Auto-pair": "自动配对",
@@ -118,7 +126,6 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Unpaired datasets are shown in the": "未配对的数据集显示在",
     "Use this box to filter elements, using simple matching or regular expressions.": "使用此框可使用简单匹配或正则表达式筛选元素。",
     "You can filter what is shown in the unpaired sections by:": "您可以通过以下方式过滤未配对部分中显示的内容：",
-    "You can include or remove the file extensions (e.g. ".fastq") from your pair names by toggling the": "您可以通过切换",
     // "and click": "然后点击",
     // "and reselect new elements.": "并重新选择新元素。",
     // cancel: "取消",
@@ -143,9 +150,12 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "unpaired forward": "未配对正向",
     "unpaired reverse": "未配对反向",
     "unpaired section": "未配对的部分",
+    //----------------------------------------Collections/UnpairedDatasetElementView.vue
     // "Click to rename": "点击重命名",
+    //----------------------------------------Collections/common/ChangeDatatypeTab.vue
     "New Type": "新类型",
     Save: "保存",
+    //----------------------------------------Collections/common/CollectionCreator.vue
     // Cancel: "关闭",
     "Close and show more help": "关闭并显示更多帮助",
     "Create a <i>single</> pair": "创建<i>一对&lt;/&gt;",
@@ -154,17 +164,22 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Expand or Close Help": "展开或关闭帮助",
     "Hide original elements?": "隐藏原始元素？",
     "Name:": "<g id="Bold">姓名：</g>",
+    //----------------------------------------Collections/common/CollectionEditView.vue
     Convert: "转换",
     Database/Build: "数据库建立",
     Datatypes: "数据类型",
     "Edit Collection Attributes": "集合属性",
+    //----------------------------------------Collections/common/DatabaseEditTab.vue
     // Database/Build: "数据库建立",
     // Save: "保存",
+    //----------------------------------------Collections/common/SuitableConvertersTab.vue
     "Convert Collection": "转换集合",
     "Converter Tool:": "转换器工具：",
+    //----------------------------------------Common/ExportForm.vue
     Export: "导出",
     "Give the exported file a name.": "为导出的文件命名。",
     Name: "姓名",
+    //----------------------------------------Common/ExportRDMForm.vue
     "Create new record": "创建新记录",
     "Export to existing draft record": "导出到现有草稿记录",
     "Export to existing record": "导出到现有记录",
@@ -175,7 +190,9 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Give the new record a name or title.": "为新记录命名或命名。",
     "Record name": "紀錄名稱",
     "draft record has been created in the repository.": "草稿记录已在存储库中创建。",
+    //----------------------------------------Common/FilterMenu.vue
     Search: "搜索",
+    //----------------------------------------DatasetInformation/DatasetAttributes.vue
     "Assign Datatype": "分配数据类型",
     Attributes: "属性",
     "Auto-detect": "自动检测",
@@ -188,26 +205,40 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     // Save: "保存",
     // Save: "保存",
     // Save: "保存",
+    //----------------------------------------DatasetInformation/DatasetError.vue
     "You must be logged in to receive emails": "您必须登录才能接收电子邮件",
+    //----------------------------------------DatasetInformation/DatasetSource.vue
     "Link copied to your clipboard": "链接到剪贴板",
+    //----------------------------------------Form/Elements/FormCheck.vue
     "No options available.": "没有可用的选项",
     "Select / Deselect all": "全选/取消全选",
+    //----------------------------------------Form/Elements/FormData/FormData.vue
     "Dataset will be run against *all* other datasets.": "数据集将根据*所有*其他数据集运行。",
     "Datasets will be run in matched order with other datasets.": "数据集将按照与其他数据集匹配的顺序运行。",
     "Linked:": "Linkedin：",
     "This is a batch mode input field. Individual jobs will be triggered for each dataset.": "这是一个批处理模式输入字段。将为每个数据集触发单个作业。",
     "Unlinked:": "未链接",
+    //----------------------------------------Form/Elements/FormDirectory.vue
     Select: "选择",
+    //----------------------------------------Form/Elements/FormDrilldown/FormDrilldown.vue
     "Select / Deselect All": "选择/取消全部",
+    //----------------------------------------Form/Elements/FormRadio.vue
     // "No options available.": "没有可用的选项",
+    //----------------------------------------Form/Elements/FormSelect.vue
     // "No options available.": "没有可用的选项",
+    //----------------------------------------Form/FormGeneric.vue
     // Cancel: "关闭",
+    //----------------------------------------Grid/GridHistory.vue
     "Import History": "%s-ID:%s 导入历史记录",
+    //----------------------------------------Grid/GridList.vue
     "No entries found.": "没有发现任何条目。",
     "Not available.": "无法使用的。",
     "Nothing found with:": "没有找到任何内容",
+    //----------------------------------------Grid/GridPage.vue
     "Create Page": "创建一个页面",
+    //----------------------------------------Grid/GridVisualization.vue
     "Create Visualization": "创建可视化",
+    //----------------------------------------History/Archiving/HistoryArchive.vue
     "Amount of items in history": "历史记录中的项目数量",
     "Are you sure you want to restore this (purged) history? Please note that this will not restore the datasets associated with this history. If you want to fully recover it, you can import a copy from the export record instead.": "您确定要还原此（已清除）历史记录吗？请注意，这不会恢复与此历史记录相关联的数据集。如果要完全恢复，可以从导出记录导入副本。",
     "Are you sure you want to restore this history? This will move the history back to your active histories.": "您确定要还原此历史记录吗？这将把历史记录移回您的活动历史记录。",
@@ -224,18 +255,25 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Unarchive this history and move it back to your active histories": "取消存档此历史记录并将其移回您的活动历史记录",
     "View this history": "查看此历史记录",
     items: "项目",
+    //----------------------------------------History/Content/Dataset/DatasetActions.vue
     // "Link copied to your clipboard": "链接到剪贴板",
+    //----------------------------------------History/Content/Dataset/DatasetDetails.vue
     database: "数据库",
     // database: "数据库",
     format: "格式",
     // format: "格式",
+    //----------------------------------------History/Content/Dataset/DatasetDownload.vue
     "Download Dataset": "下载数据集",
+    //----------------------------------------History/CurrentHistory/HistoryDetails.vue
     "last edited": "上次编辑",
+    //----------------------------------------History/CurrentHistory/HistoryEmpty.vue
     "You can load your own data": "您可以加载自己的数据",
     "get data from an external source": "从其他来源上传数据.",
     // or: "或者",
+    //----------------------------------------History/CurrentHistory/HistoryMessages.vue
     "This history has been deleted": "历史记录已被删除。",
     "You are over your disk quota. Tool execution is on hold until your disk usage drops below your allocated quota.": "您已超出磁盘配额。工具执行暂停，直到磁盘使用率降至分配的配额以下。",
+    //----------------------------------------History/CurrentHistory/HistoryNavigation.vue
     "Archive History": "归档历史",
     "Copy this History": "复制历史",
     "Delete this History": "删除历史",
@@ -258,6 +296,7 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Yes, permanently delete this history.": "是，永久删除此历史记录。",
     "You have": "您有",
     "histories.": "历史",
+    //----------------------------------------History/CurrentHistory/HistoryOperations/DefaultOperations.vue
     "Copy Datasets": "复制数据集",
     "Delete All Hidden Content": "删除所有隐藏内容",
     "Purge All Deleted Content": "清除所有已删除的内容",
@@ -267,7 +306,9 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Unhide All Hidden Content": "取消隐藏所有隐藏内容",
     "Warning, this operation cannot be undone.": "此操作无法撤消。",
     "With entire history...": "有着悠久的历史……",
+    //----------------------------------------History/CurrentHistory/HistoryOperations/OperationErrorDialog.vue
     "The operation failed for the following reasons:": "操作失败，原因如下：",
+    //----------------------------------------History/CurrentHistory/HistoryOperations/SelectionOperations.vue
     "Add tags": "增加标签",
     "Build Collection from Rules": "通过规则构建集合",
     "Build Dataset List": "构建数据集列表",
@@ -287,6 +328,7 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     of: "/",
     selected: "已选择",
     "selected...": "个数据集",
+    //----------------------------------------History/HistoryScrollList.vue
     // "Amount of items in history": "历史记录中的项目数量",
     "Last edited": "最后编辑",
     "Load More": "加载更多",
@@ -294,17 +336,20 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Open in multi-view": "在多视图中打开",
     "Set as current history": "设置为当前历史记录",
     // items: "项目",
+    //----------------------------------------History/Index.vue
     "Loading History...": "载入历史记录......",
+    //----------------------------------------History/Layout/DetailsLayout.vue
     // Cancel: "关闭",
     Edit: "编辑",
     "Log in to Rename History": "登录以重命名历史记录",
     "Not Editable": "不可编辑",
     // Save: "保存",
-    "As an anonymous user, unless you log in or register, you will lose your current history after copying this history. You can <a href="/user/login">log in here</a> or <a href="/user/create">register here</a>.": "作为匿名用户，除非您登录或注册，否则在复制此历史记录后，您将丢失当前历史记录。您可以在<a href="/user/login">此处登录</a>或<a href="/user/create">在此处注册</a>。",
+    //----------------------------------------History/Modals/SelectorModal.vue
     "Change Selected": "更改所选内容",
     "Click a history to switch to it": "单击历史记录以切换到历史记录",
     "Click here to reset selection": "重设密码",
     "Filter histories": "筛选历史记录",
+    //----------------------------------------History/Multiple/MultipleView.vue
     "Currently showing 4 most recently updated histories": "当前显示4个最近更新的历史记录",
     "No History found.": "未找到失败的尝试登录历史记录。",
     "Open modal to select/deselect histories": "打开模式以选择/取消选择历史记录",
@@ -312,13 +357,16 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Search datasets and collections in selected histories": "搜索所选历史记录中的数据集和集合",
     // Select: "选择",
     "Show 4 most recently updated histories instead": "改为显示4个最近更新的历史记录",
+    //----------------------------------------History/Multiple/MultipleViewList.vue
     "Collection copied to new history": "集合已复制到新历史记录",
     "Create and pin new history": "创建并固定新历史记录",
     "Create new history with this item": "使用此项目创建新历史记录",
     "Dataset copied to new history": "数据集已复制到新历史记录",
     "Select histories": "选择历史记录",
+    //----------------------------------------Indices/SharingIndicators.vue
     Deleted: "已删除",
     Purged: "已清理",
+    //----------------------------------------Libraries/LibrariesList.vue
     // Cancel: "关闭",
     // Delete: "删除",
     Description: "&#10;",
@@ -332,6 +380,7 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "include deleted": "包括已删除的",
     "per page": "每页",
     total: "第一級",
+    //----------------------------------------Libraries/LibraryFolder/FolderDetails/FolderDetails.vue
     Created: "已创建",
     // Description: "&#10;",
     // Description: "&#10;",
@@ -343,7 +392,9 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     // Name: "姓名",
     // Name: "姓名",
     // Synopsis: "概要",
+    //----------------------------------------Libraries/LibraryFolder/SearchField.vue
     // Search: "搜索",
+    //----------------------------------------Login/LoginForm.vue
     "Click here to reset your password.": "请点击此处重置您的密码。",
     "Don't have an account?": "还没有账号？",
     "Forgot password?": "忘记密码？",
@@ -352,6 +403,7 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Public Name or Email Address": "公开名称或邮箱地址",
     "Register here.": "这里注册。",
     "Welcome to Galaxy, please log in": "欢迎来到 Galaxy，请登录",
+    //----------------------------------------Login/RegisterForm.vue
     "Already have an account?": "已经有了一个账户？",
     "Confirm password": "确认密码",
     Create: "创建",
@@ -364,32 +416,42 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Subscribe to mailing list": "订阅邮件列表",
     "Your public name is an identifier that will be used to generate addresses for information you share publicly. Public names must be at least three characters in length and contain only lower-case letters, numbers, dots, underscores, and dashes ('.', '_', '-').": "您的公开名称是一个标识符，将用于为您公开共享的信息生成地址。公开名称长度至少为3个字符，只能包含小写字母、数字、点、下划线和横线。（“.”，“_”，“-”）。",
     "↓ Scroll to review ↓": "↓ 滚动以查看 ↓",
+    //----------------------------------------Panels/MultiviewPanel.vue
     "1 history pinned. Click here to reset": "1个历史记录已固定，点击此处重置",
     "Currently showing 4 most recently updated histories in Multiview": "当前在多视图中显示最近更新的4个历史记录",
     "Open History Multiview": "打开历史记录多视图",
     "Reset selection to show 4 most recently updated histories instead": "重置选择以显示最近更新的4个历史记录",
     "Select histories to pin to Multiview": "选择要固定到多视图的历史记录",
+    //----------------------------------------Panels/ToolBox.vue
     "All workflows": "所有流程",
     "Data Managers": "数据管理器",
     "Hide Sections": "隐藏Sections",
     "Show Sections": "显示Sections",
     Workflows: "流程",
     "search tools": "搜索工具",
+    //----------------------------------------Panels/ToolPanel.vue
     "Advanced Tool Search": "高级工具搜索",
     Tools: "工具",
+    //----------------------------------------RuleBuilder/ColumnSelector.vue
     "Assign Another Column": "分配另一列",
     "From Column": "从列：",
     "Select a column": "选择一列",
+    //----------------------------------------RuleBuilder/IdentifierDisplay.vue
     "Edit column definition": "列定义",
     "Remove this column definition": "删除此列定义",
+    //----------------------------------------RuleBuilder/RegularExpressionInput.vue
     "Enter a regular expression.": "输入正则表达式",
     "Regular Expression": "反转检查，即提交的值必须与正则表达式不匹配",
     "Regular Expressions": "正则表达式",
+    //----------------------------------------RuleBuilder/RuleComponent.vue
     Apply: "应用",
     // Cancel: "关闭",
+    //----------------------------------------RuleBuilder/RuleDisplay.vue
     "Edit this rule.": "编辑此规则",
     "Remove this rule.": "删除规则",
+    //----------------------------------------RuleBuilder/SavedRulesSelector.vue
     "Recently used rules": "最近使用的规则",
+    //----------------------------------------RuleCollectionBuilder.vue
     "Add nametag for name": "为名称添加名称标签",
     "Advanced Option: View and or edit the JSON representation of the rules to apply to this tabular data": "高级选项：查看和/或编辑要应用于此表格数据的规则的JSON表示形式",
     // Apply: "应用",
@@ -462,19 +524,26 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "greater than or equal to": "大于或等于",
     "less than": "少于",
     "less than or equal to": "小于或等于",
+    //----------------------------------------Tool/Buttons/ToolOptionsButton.vue
     "Copy Link": "复制链接",
     "Copy Tool ID": "复制工具ID",
     Download: "下载",
     "See in Tool Shed": "请参阅工具棚",
+    //----------------------------------------Tool/Buttons/ToolVersionsButton.vue
     Selected: "已选择",
     "Switch to": "切换到",
+    //----------------------------------------Tool/ToolFooter.vue
     Citations: "引用",
     License: "许可证",
     References: "参考文献",
     Requirements: "申请条件",
+    //----------------------------------------Tool/ToolSourceMenuItem.vue
     "View Tool source": "查看工具源",
+    //----------------------------------------Toolshed/Index.vue
     "clear search (esc)": "清除搜索(esc)",
+    //----------------------------------------Tour/TourList.vue
     "search tours": "搜索之旅",
+    //----------------------------------------Upload/CompositeBox.vue
     // Cancel: "关闭",
     // Close: "关闭",
     "Composite Type:": "组合类型:",
@@ -482,9 +551,11 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     // Reset: "重置",
     "Select a composite type": "选择一种复合类型",
     Start: "开始",
+    //----------------------------------------Upload/CompositeRow.vue
     "Choose local file": "选择本地文件",
     "Choose remote file": "选择远程文件",
     "Paste/Fetch data": "粘贴/获取数据",
+    //----------------------------------------Upload/DefaultBox.vue
     Build: "构建",
     // Cancel: "关闭",
     "Choose local files": "选择本地文件",
@@ -501,7 +572,9 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Type (set all):": "类型（全部设置） ：",
     "You added": "您已将",
     "file(s) to the queue. Add more files or click 'Start' to proceed.": "个文件添加到队列中。添加更多文件或点击 '开始' 以继续。",
+    //----------------------------------------Upload/DefaultRow.vue
     "Download data from the web by entering URLs (one per line) or directly paste content.": "通过输入网址（每行一个）从网络下载数据，或者直接粘贴内容。",
+    //----------------------------------------Upload/RulesInput.vue
     // Build: "构建",
     "Choose dataset": "选择数据集",
     // "Choose remote files": "选择远程文件",
@@ -512,42 +585,56 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Paste data": "粘贴数据",
     // Reset: "重置",
     "Upload type:": "上传类型",
+    //----------------------------------------Upload/UploadButton.vue
     "Upload Data": "上传数据",
+    //----------------------------------------Upload/UploadContainer.vue
     Collection: "集合数据",
     Composite: "复合数据",
     Regular: "常规数据",
     "Rule-based": "基于规则",
+    //----------------------------------------Upload/UploadExtension.vue
     "There is no description available for this file extension.": "这种文件扩展名没有可用的描述。",
+    //----------------------------------------User/APIKey/APIKey.vue
     "An API key will allow you to access via web API. Please note that this key acts as an alternate means to access your account and should be treated with the same care as your login password.": "API密钥将允许您通过Web API访问。请注意，此密钥可作为访问您帐户的替代方式，应与您的登录密码一样谨慎对待。",
     "Create a new key": "创建一个新的按键",
     "Manage API Key": "管理您的 API 密钥",
+    //----------------------------------------User/APIKey/APIKeyItem.vue
     "Are you sure you want to delete this key?": "确定要删除这个?",
+    //----------------------------------------User/CloudAuth/CloudAuth.vue
     "Manage Cloud Authorization": "管理云授权",
+    //----------------------------------------User/DiskUsage/DiskUsageSummary.vue
     "Failed to access disk usage details.": "无法访问磁盘使用情况详细信息。",
     "Recalculating disk usage... this may take some time, please check back later.": "正在重新计算磁盘使用情况...这可能需要一些时间，请稍后再查看。",
     Refresh: "刷新",
+    //----------------------------------------User/DiskUsage/Management/Cleanup/CleanupOperationSummary.vue
     "No items to clear": "没有要清除的项目",
     "Review and clear": "查看并清除",
+    //----------------------------------------User/DiskUsage/Management/Cleanup/CleanupResultDialog.vue
     Congratulations!: "恭喜您！",
     "Freeing up some space...": "正在释放一些空间...",
     // Name: "姓名",
     Reason: "原因",
     "Something went wrong...": "发生错误...",
     "Sorry, some items couldn't be cleared": "很抱歉，某些项目无法清除",
+    //----------------------------------------User/DiskUsage/Management/Cleanup/ReviewCleanupDialog.vue
     "I understand that once I delete the items, they cannot be recovered.": "我明白，一旦我删除这些项目，它们将无法恢复。",
     "Permanently delete": "永久删除",
     "To free up account space, review and select items to be permanently deleted here.": "要释放账号空间，请在此处查看并选择要永久删除的项目。",
+    //----------------------------------------User/DiskUsage/Management/StorageManager.vue
     "Back to Dashboard": "返回到仪表盘",
     "Learn more": "了解更多",
     "Manage your account storage": "管理您的帐户存储空间",
     "The storage manager only shows elements that count towards your disk quota.": "存储管理器仅显示计入磁盘配额的元素。",
     "This feature is currently in Beta, if you find any issues please report them": "此功能目前处于测试阶段，如果您发现任何问题，请报告",
+    //----------------------------------------User/DiskUsage/Quota/QuotaUsageBar.vue
     "% of disk quota used": "已使用磁盘配额的百分比",
     "storage source": "无源存储",
+    //----------------------------------------User/DiskUsage/Quota/QuotaUsageSummary.vue
     "All your storage sources have unlimited disk space. Enjoy!": "您所有的存储源都有无限的磁盘空间。尽情享受吧！",
     "This is the maximum disk space that you can use across all your storage sources. Unlimited storage sources are not taken into account": "这是您可以在所有存储源中使用的最大磁盘空间。不受限制的存储源不计算在内。",
     "You've got": "您总共有",
     "of total disk quota": "的磁盘配额",
+    //----------------------------------------User/DiskUsage/StorageDashboard.vue
     "Explore now": "立即探索",
     "Find out what is eating up your space and learn how to easily and safely free up some of it.": "找出是什么占用了您的空间，并了解如何轻松且安全地释放其中的一部分空间。",
     "Free up disk usage": "释放磁盘使用空间",
@@ -556,6 +643,7 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     "Storage Dashboard": "存储面板",
     "Visually explore your disk usage": "可视化地探索您的磁盘使用情况",
     "Want to know what histories or datasets take up the most space in your account? Here you can explore your disk usage in a visual way.": "想知道哪些历史记录或数据集占用了您账户中的大部分空间吗？在这里，您可以以可视化的方式探索您的磁盘使用情况。",
+    //----------------------------------------User/DiskUsage/Visualizations/HistoriesStorageOverview.vue
     "Active vs Archived vs Deleted Total Size": "活动vs已存档vs已删除总大小",
     "An error occurred while permanently deleting the history.": "永久删除历史记录时出错。",
     "An error occurred while undeleting the history.": "取消删除历史记录时出错。",
@@ -568,6 +656,7 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     // "Permanently delete": "永久删除",
     "Permanently delete history?": "永久删除历史记录？",
     "This graph shows the total size taken by your histories, split between active, archived and deleted histories.": "此图表显示了您的历史记录所采用的总大小，分为活动、已存档和已删除的历史记录。",
+    //----------------------------------------User/DiskUsage/Visualizations/HistoryStorageOverview.vue
     "Active vs Deleted Total Size": "活动与已删除总大小",
     "An error occurred while permanently deleting the dataset.": "永久删除数据集时出错。",
     "An error occurred while undeleting the dataset.": "取消删除数据集时出错。",
@@ -580,17 +669,23 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     // "Permanently delete": "永久删除",
     "Permanently delete dataset?": "永久删除数据集？",
     "This graph shows the total size of your datasets in this history, split between active and deleted datasets.": "此图表显示此历史记录中数据集的总大小，分为活动数据集和已删除数据集。",
+    //----------------------------------------User/DiskUsage/Visualizations/SelectedItemActions.vue
     "Set this history as current": "将此历史记录设置为当前",
+    //----------------------------------------User/Notifications/NotificationsPreferences.vue
     // Save: "保存",
     "You can manage notifications channels and preferences here.": "您可以在此处管理通知渠道和偏好设置。",
     "You can manage push notifications preferences here.": "您可以在此处管理推送通知偏好设置。",
+    //----------------------------------------User/ThemeSelector.vue
     Active: "活动",
     Hover: "悬停",
     Text: "文本",
+    //----------------------------------------User/UserBeaconSettings.vue
     "Contribute variants to Beacon": "为Beacon贡献变体",
     "Manage Beacon": "管理Beacon",
+    //----------------------------------------User/UserDeletion.vue
     "Delete Account": "删除账户",
     "Delete your account on this Galaxy server.": "删除您在本Galaxy服务器上的账户。",
+    //----------------------------------------User/UserPreferences.vue
     "All of your histories and datasets have been made private. If you'd like to make all *future* histories private please use the": "您的所有历史记录和数据集都已设为私有。如果您想将所有*未来*历史记录设为私有，请使用",
     "Do you want to continue and sign out of all active sessions?": "您是否要继续并注销所有活动会话？",
     "If this is more than expected, please visit the": "如果这比预期的要多，请访问",
@@ -602,12 +697,15 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     interface: "接口",
     "of disk space.": "磁盘空间。",
     "to free up disk space.": "以释放磁盘空间。",
+    //----------------------------------------Visualizations/PluginList.vue
     // "Create Visualization": "创建可视化",
     "Select a dataset to visualize:": "选择要可视化的数据集：",
     "There is no suitable dataset in your current history which can be visualized with this plugin.": "您的当前历史记录中没有合适的数据集可以使用此插件可视化。",
     "search visualizations": "搜索可视化效果",
+    //----------------------------------------Workflow/Editor/Recommendations.vue
     "No tool recommendations": "无工具建议",
     "Tool recommendations": "工具建议",
+    //----------------------------------------Workflow/Editor/SaveChangesModal.vue
     // Cancel: "关闭",
     "Click 'Save' to save your changes and proceed, 'Don't Save' to discard them and proceed, or 'Cancel' to return to the editor.": "单击“保存”保存更改并继续，单击“不保存”放弃更改并继续，单击“取消”返回编辑器。",
     "Discard changes and proceed": "放弃更改并继续",
@@ -616,15 +714,23 @@ define({    "No matching activities found.": "未找到匹配的活动。",
     // Save: "保存",
     "Save changes and proceed": "保存更改并继续",
     "You have unsaved changes. Do you want to save them before proceeding?": "您有未保存的更改。您想在继续之前保存它们吗？",
+    //----------------------------------------Workflow/Invocation/Export/Plugins/BioComputeObject/BioComputeObjectExportCard.vue
     Submit: "提交",
+    //----------------------------------------Workflow/Invocation/Export/Plugins/BioComputeObject/SendForm.vue
     // Submit: "提交",
+    //----------------------------------------Workflow/WorkflowInvocationsCount.vue
     "View workflow invocations": "查看工作流程调用",
     // "View workflow invocations": "查看工作流程调用",
+    //----------------------------------------Workflow/WorkflowRename.vue
     Rename: "重命名",
+    //----------------------------------------Workflow/WorkflowRunButton.vue
     Run: "运行",
+    //----------------------------------------admin/Notifications/BroadcastForm.vue
     "Create Broadcast": "创建广播",
     "Update Broadcast": "更新广播",
+    //----------------------------------------admin/Notifications/BroadcastsList.vue
     "Broadcasts are notifications that are displayed to all users. They can be scheduled to be published at a specific time and can be set to expire at a specific time. They can also be marked as urgent to make them stand out.": "广播是向所有用户显示的通知。它们可以安排在特定时间发布，也可以设置为在特定时间过期。他们也可以被标记为紧急，以使他们脱颖而出。",
+    //----------------------------------------admin/Notifications/NotificationForm.vue
     "Once you send the notification, it will be sent to all the recipients and cannot be edited or deleted.": "发送通知后，它将发送给所有收件人，无法编辑或删除。",
     "Send Notification": "发送通知",
 });
