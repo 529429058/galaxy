@@ -66,7 +66,7 @@ define({
     "Click for details.": "点击查看详情。",
 
     // ---------------------------------------------------------------------------- panels
-    Tools: "工具",
+    // Tools: "工具",
     "Show favorites": "显示收藏夹",
     "Show panel options": "显示面板选项",
     "Toggle Advanced Search": "切换到高级搜索",
