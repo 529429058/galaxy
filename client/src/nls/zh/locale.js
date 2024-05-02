@@ -12,6 +12,7 @@ define({
     User: "用户",
     Using: "已使用",
     Quotas: "配额",
+    "With entire history...": "对整个历史进行……",
 
     "Shared Data": "数据共享",
     "Data Libraries": "数据库",
@@ -33,7 +34,7 @@ define({
     "Signed in as": "您已登录为",
     Preferences: "偏好设置",
     "Custom Builds": "自定义构建集",
-    Logout: "退出",
+    Logout: "退出登录",
     "Saved Histories": "保存的历史",
     "Saved Datasets": "保存的数据集",
     "Saved Pages": "保存的页面",
@@ -47,7 +48,7 @@ define({
     "Community Hub": "社区",
     About: "关于",
     Notifications: "通知",
-    "Sign Out": "退出",
+    "Sign Out": "退出登录",
 
     //Tooltip
     "Tools and Current History": "工具及当前历史",
@@ -705,7 +706,6 @@ define({
     "Really unhide all hidden datasets?": "真的要取消隐藏所有隐藏的数据集吗？",
     "Unhide All Hidden Content": "取消隐藏所有隐藏内容",
     "Warning, this operation cannot be undone.": "此操作无法撤消。",
-    "With entire history...": "有着悠久的历史……",
     "The operation failed for the following reasons:": "操作失败，原因如下：",
     "Undelete": "取消删除",
     "Unhide": "取消隐藏",
