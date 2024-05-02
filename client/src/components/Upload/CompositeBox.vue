@@ -191,7 +191,7 @@ defineExpose({
             </div>
         </div>
         <div class="upload-footer">
-            <span class="upload-footer-title">Composite Type:</span>
+            <span class="upload-footer-title" v-localize>Composite Type:</span>
             <UploadSelect
                 class="upload-footer-extension"
                 :value="null"
@@ -199,7 +199,7 @@ defineExpose({
                 :disabled="isRunning"
                 what="file type"
                 @input="inputExtension" />
-            <span class="upload-footer-title">Reference:</span>
+            <span class="upload-footer-title" v-localize>Reference:</span>
             <UploadSelect
                 what="reference"
                 :value="dbKey"

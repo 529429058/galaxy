@@ -19,6 +19,8 @@ import CompositeBox from "./CompositeBox";
 import DefaultBox from "./DefaultBox";
 import RulesInput from "./RulesInput";
 
+import localize from "@/utils/localization";
+
 const props = defineProps({
     auto: {
         type: Object,
@@ -161,7 +163,7 @@ defineExpose({
 
 <template>
     <BTabs v-if="ready">
-        <BTab v-if="showRegular" id="regular" title="Regular" button-id="tab-title-link-regular">
+        <BTab v-if="showRegular" id="regular" :title="localize('Regular')" button-id="tab-title-link-regular">
             <DefaultBox
                 ref="regular"
                 :chunk-upload-size="chunkUploadSize"
@@ -177,7 +179,7 @@ defineExpose({
                 @progress="progress"
                 v-on="$listeners" />
         </BTab>
-        <BTab v-if="showComposite" id="composite" title="Composite" button-id="tab-title-link-composite">
+        <BTab v-if="showComposite" id="composite" :title="localize('Composite')" button-id="tab-title-link-composite">
             <CompositeBox
                 :effective-extensions="effectiveExtensions"
                 :default-db-key="defaultDbKey"
@@ -188,7 +190,7 @@ defineExpose({
                 :list-db-keys="listDbKeys"
                 v-on="$listeners" />
         </BTab>
-        <BTab v-if="showCollection" id="collection" title="Collection" button-id="tab-title-link-collection">
+        <BTab v-if="showCollection" id="collection" :title="localize('Collection')" button-id="tab-title-link-collection">
             <DefaultBox
                 :chunk-upload-size="chunkUploadSize"
                 :default-db-key="defaultDbKey"
@@ -202,7 +204,7 @@ defineExpose({
                 :list-db-keys="listDbKeys"
                 v-on="$listeners" />
         </BTab>
-        <BTab v-if="showRules" id="rule-based" title="Rule-based" button-id="tab-title-link-rule-based">
+        <BTab v-if="showRules" id="rule-based" :title="localize('Rule-based')" button-id="tab-title-link-rule-based">
             <RulesInput
                 :file-sources-configured="fileSourcesConfigured"
                 :ftp-upload-site="currentUserId && ftpUploadSite"

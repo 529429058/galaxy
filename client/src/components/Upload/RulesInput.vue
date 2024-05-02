@@ -127,11 +127,11 @@ function inputRemote() {
         <textarea
             v-model="sourceContent"
             class="upload-box upload-rule-source-content"
-            placeholder="Insert tabular source data here."
+            :placeholder="localize('Insert tabular source data here.')"
             :disabled="isDisabled" />
         <FontAwesomeIcon v-if="isDisabled" class="upload-text-lock" icon="fa-lock" />
         <div class="upload-footer text-center">
-            <span class="upload-footer-title">Upload type:</span>
+            <span class="upload-footer-title" v-localize>Upload type:</span>
             <UploadSelect v-model="dataType" class="rule-data-type" :options="RULES_TYPES" :searchable="false" />
         </div>
         <div class="upload-buttons d-flex justify-content-end">
