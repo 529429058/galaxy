@@ -86,7 +86,7 @@ define({
 
     // ---------------------------------------------------------------------------- activity bar
     Upload: "上传",
-    "Tools": "工具",
+    //"Tools": "工具",
     Workflows: "流程",
     "Workflow Invocations": "流程调用",
     "Interactive Tools": "交互式工具",
