@@ -40,8 +40,8 @@ define({
     Datasets: "数据集",
     Histories: "历史",
     "Histories shared with me": "分享给我的历史",
-    Pages: "我的页面",
-    Visualizations: "我的可视化",
+    Pages: "页面",
+    Visualizations: "可视化",
     "Workflow Invocations": "流程调用",
     "Galaxy Help": "帮助",
     "Community Hub": "社区",
@@ -66,7 +66,7 @@ define({
     "Click for details.": "点击查看详情。",
 
     // ---------------------------------------------------------------------------- panels
-    // Tools: "工具",
+    Tools: "工具",
     "Show favorites": "显示收藏夹",
     "Show panel options": "显示面板选项",
     "Toggle Advanced Search": "切换到高级搜索",
