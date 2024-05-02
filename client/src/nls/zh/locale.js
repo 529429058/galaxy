@@ -966,7 +966,7 @@ define({
     "Form definitions": "表单定义",
     "Administration": "管理",
     "Tools and Tool Shed": "工具和工具棚",
-    "Your workflows": "您的工作流"
+    "Your workflows": "您的工作流",
     "See in Tool Shed": "请参阅工具棚",
     "Requirements": "申请条件",
     "Wiki": "维基",
