@@ -6,7 +6,7 @@ define({
     Visualization: "可视化",
     Data: "数据与共享",
     Admin: "管理员",
-    Help: "帮助与支持",
+    Help: "帮助",
     "Log in or Register": "注册登录",
     User: "用户中心",
 
@@ -944,8 +944,8 @@ define({
     "Address": "住址",
     "Insert address": "插入地址",
     "Do you want to be able to re-use equivalent jobs ?": "您是否希望能够重复使用等效作业？",
+    "Yes": "是",
     "No": "否",
-    "Yes": "是的",
     "If you select yes, you will be able to select for each tool and workflow run if you would like to use this feature.": "如果选择“是” ，则如果您想使用此功能，则可以为每个工具和工作流运行选择。",
     "Localization": "本地化",
     "Prefered language": "语言偏好",
