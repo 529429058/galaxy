@@ -1058,7 +1058,7 @@ define({
     "Dataset collection": "数据集合",
     "Multiple datasets": "多个数据集",
     "Single dataset": "单个数据集",
-    "tool tooltip": "工具提示"
+    "tool tooltip": "工具提示",
     "Additional Options": "其他选项",
-    "Tool Parameters": "工具参数"
+    "Tool Parameters": "工具参数",
 });
