@@ -10,6 +10,7 @@ define({
     "Log in or Register": "注册登录",
     User: "用户中心",
 
+    "Requirements": "软件依赖",
 
     Using: "已使用",
     Quotas: "配额",
@@ -427,7 +428,7 @@ define({
     Execute: "执行",
     "Tool request failed": "工具请求失败",
     "Email notification": "邮件通知",
-    "Send an email notification when the job completes.": "任务完成后发送电子邮件通知。",
+    "Send an email notification when the job completes.": "任务完成后发送邮件通知。",
     "Get Data": "获取数据",
     "GENERAL TEXT TOOLS": "通用文本工具",
     // ---------------------------------------------------------------------------- workflow
@@ -968,7 +969,6 @@ define({
     "Tools and Tool Shed": "工具和工具棚",
     "Your workflows": "您的工作流",
     "See in Tool Shed": "请参阅工具棚",
-    "Requirements": "申请条件",
     "Wiki": "维基",
     "Webhooks": "Webhooks",
     "Reset passwords": "重置密码",
