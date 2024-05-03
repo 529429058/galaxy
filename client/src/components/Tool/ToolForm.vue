@@ -94,7 +94,7 @@
             </template>
             <template v-slot:buttons>
                 <ButtonSpinner
-                    title="localize('Run Tool')"
+                    :title="localize('Run Tool')"
                     class="mt-3 mb-3"
                     :wait="showExecuting"
                     :tooltip="tooltip"
