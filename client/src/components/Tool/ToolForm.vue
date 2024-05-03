@@ -86,7 +86,7 @@
             <template v-slot:header-buttons>
                 <ButtonSpinner
                     id="execute"
-                    title="Run Tool"
+                    :title="localize('Run Tool')"
                     class="btn-sm"
                     :wait="showExecuting"
                     :tooltip="tooltip"
@@ -94,7 +94,7 @@
             </template>
             <template v-slot:buttons>
                 <ButtonSpinner
-                    title="Run Tool)"
+                    title="localize('Run Tool')"
                     class="mt-3 mb-3"
                     :wait="showExecuting"
                     :tooltip="tooltip"
