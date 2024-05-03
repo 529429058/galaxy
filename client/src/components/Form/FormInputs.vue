@@ -46,7 +46,7 @@
                 v-else
                 :id="getPrefix(input.name)"
                 v-model="input.value"
-                :title="input.label || input.name"
+                :title="localize(input.label || input.name)"
                 :type="input.type"
                 :error="input.error"
                 :warning="input.warning"
