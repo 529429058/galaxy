@@ -663,7 +663,7 @@ define({
     "Dataset will be run against *all* other datasets.": "数据集将根据*所有*其他数据集运行。",
     "Datasets will be run in matched order with other datasets.": "数据集将按照与其他数据集匹配的顺序运行。",
     "Linked:": "Linkedin：",
-    "This is a batch mode input field. Individual jobs will be triggered for each dataset.": "这是一个批处理模式输入字段。将为每个数据集触发单个作业。",
+    "This is a batch mode input field. Individual jobs will be triggered for each dataset.": "这是批处理模式。将为每个数据集触发单独的任务。",
     "Unlinked:": "未链接",
     "Select / Deselect All": "选择/取消全部",
     "Import History": "导入历史记录",
@@ -1058,7 +1058,9 @@ define({
     "Dataset collection": "数据集合",
     "Multiple datasets": "多个数据集",
     "Single dataset": "单个数据集",
+    "Include Output header": "包括输出表头",
     "tool tooltip": "工具提示",
     "Additional Options": "其他选项",
     "Tool Parameters": "工具参数",
+    "Tutorials": "教程",
 });
