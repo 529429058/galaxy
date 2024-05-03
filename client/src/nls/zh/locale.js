@@ -426,7 +426,7 @@ define({
     "Job submission failed": "任务提交失败",
     Execute: "执行",
     "Tool request failed": "工具请求失败",
-    "Email notification": "邮件提醒",
+    "Email notification": "邮件通知",
     "Send an email notification when the job completes.": "任务完成后发送电子邮件通知。",
     "Get Data": "获取数据",
     "GENERAL TEXT TOOLS": "通用文本工具",
@@ -1059,4 +1059,6 @@ define({
     "Multiple datasets": "多个数据集",
     "Single dataset": "单个数据集",
     "tool tooltip": "工具提示"
+    "Additional Options": "其他选项",
+    "Tool Parameters": "工具参数"
 });
