@@ -185,7 +185,7 @@ const showHelpForum = computed(() => isConfigLoaded.value && config.value.enable
 
         <div>
             <div v-if="props.options.help" class="mt-2 mb-4">
-                <Heading h2 separator bold size="sm"> Help </Heading>
+                <Heading h2 separator bold size="sm" v-localize> Help </Heading>
                 <ToolHelp :content="props.options.help" />
             </div>
 
