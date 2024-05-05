@@ -3,7 +3,7 @@
         <div v-for="(input, index) in inputs" :key="index">
             <div v-if="input.type == 'conditional'" class="ui-portlet-section mt-3">
                 <div class="portlet-header">
-                    <b>{{ input.test_param.label || input.test_param.name }}</b>
+                    <b>{{ localize(input.test_param.label || input.test_param.name) }}</b>
                 </div>
                 <div class="portlet-content">
                     <FormElement
@@ -35,7 +35,7 @@
                     @swap="(a, b) => repeatSwap(input, a, b)" />
             </div>
             <div v-else-if="input.type == 'section'">
-                <FormCard :title="input.title || input.name" :expanded.sync="input.expanded" :collapsible="true">
+                <FormCard :title="localize(input.title || input.name)" :expanded.sync="input.expanded" :collapsible="true">
                     <template v-slot:body>
                         <div v-if="input.help" class="my-2" data-description="section help">{{ input.help }}</div>
                         <FormNode v-bind="$props" :inputs="input.inputs" :prefix="getPrefix(input.name)" />
