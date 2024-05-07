@@ -5,6 +5,9 @@ define({
     "If your genome of interest is not listed, contact the Galaxy team": "如果您感兴趣的基因组未列出，请与Galaxy团队联系（微信：usegalaxy ）。",
     "Select this option for compatibility with MultiQC (--new-summary)": "选择此选项以实现与MultiQC的兼容性（--new-summary）",
     "Output alignment summary to a file in addition to stderr. (--summary-file)": "将对齐摘要输出到文件以及标准错误输出。（--summary-file）",
+    "Current password": "当前密码",
+    "New password": "新密码",
+
     // masthead
     Workflow: "流程",
     Visualize: "可视化",
