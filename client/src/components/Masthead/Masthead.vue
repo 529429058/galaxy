@@ -113,7 +113,7 @@ onMounted(() => {
                 <img v-if="logoSrcSecondary" alt="logo" :src="withPrefix(logoSrcSecondary)" />
             </BNavbarBrand>
             <span v-if="brand" class="navbar-text px-2">
-                {{ brand }}
+                {{ localize(brand) }}
             </span>
         </BNavbarNav>
         <BNavbarNav>
