@@ -8,6 +8,7 @@ define({
     "Current password": "当前密码",
     "New password": "新密码",
     "Please provide a value for this option.": "请为该选项提供一个值。",
+    "Collapse/Expand": "折叠/展开",
 
     // masthead
     Workflow: "流程",
