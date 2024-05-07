@@ -1,5 +1,6 @@
 import Utils from "utils/utils";
 import Webhooks from "utils/webhooks";
+import localize from "@/utils/localization";
 
 export function loadWebhookMenuItems(items) {
     Webhooks.load({
