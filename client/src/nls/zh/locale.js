@@ -230,6 +230,7 @@ define({
     "Public name": "公开名称",
     "Subscribe to mailing list": "订阅邮件列表",
     "Your public name is an identifier that will be used to generate addresses for information you share publicly. Public names must be at least three characters in length and contain only lower-case letters, numbers, dots, underscores, and dashes ('.', '_', '-').": "您的公开名称是一个标识符，将用于为您公开共享的信息生成地址。公开名称长度至少为3个字符，只能包含小写字母、数字、点、下划线和横线。（“.”，“_”，“-”）。",
+    'Your public name is an identifier that will be used to generate addresses for information you share publicly. Public names must be at least three characters in length and contain only lower-case letters, numbers, dots, underscores, and dashes (".", "_", "-").': "你的公开名称是一个标识符，用于生成你公开分享的信息的地址。公开名称的长度必须至少为三个字符，并且只包含小写字母、数字、点、下划线和破折号（"."，"_"，"-"）。",
     "Create": "创建",
     "Already have an account?": "已经有了一个账户？",
     "Log in here.": "请登录。",
