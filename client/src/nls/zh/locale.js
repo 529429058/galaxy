@@ -18,6 +18,11 @@ define({
     "All workflows": "所有流程",
     "China": "中国",
     "search datasets": "搜索数据集",
+    "History Size": "历史记录大小",
+    "Manage Preferred History Storage": "管理首选历史存储".
+    "Show active": "显示活动的",
+    "Include deleted": "包括删除的",
+    "Include hidden": "包括隐藏的".
 
     // masthead
     Workflow: "流程",
