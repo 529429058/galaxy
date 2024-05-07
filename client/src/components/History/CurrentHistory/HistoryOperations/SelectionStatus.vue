@@ -25,11 +25,11 @@ function resetSelection() {
 <template>
     <BButtonGroup size="sm">
         <BButton v-if="hasSelection" variant="link" data-test-id="clear-btn" @click="resetSelection">
-            <span class="fa fa-fw fa-times" title="Clear selection" />
+            <span class="fa fa-fw fa-times" :title="localize('Clear selection')" />
         </BButton>
 
         <BButton v-else variant="link" data-test-id="select-all-btn" @click="selectAll">
-            <span>Select All</span>
+            <span v-localize>Select All</span>
         </BButton>
     </BButtonGroup>
 </template>
