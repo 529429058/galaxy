@@ -66,6 +66,8 @@ define({
     "You have no unread notifications": "您没有未读通知",
     "Edit preferences": "编辑偏好",
     // Activity bar setting
+    "Customize Activity Bar": "自定义活动栏",
+    "User Preferences": "用户偏好",
     "Displays currently active interactive tools (ITs), if these are enabled by the administrator.": "显示当前活动的交互式工具（ITs），如果这些工具已被管理员启用。",
     "Opens a data dialog, allowing uploads from URL, pasted content or disk.": "打开一个数据对话框，允许从URL、粘贴的内容或磁盘上传。",
     "Displays the tool panel to search and access all available tools.": "显示用于搜索和访问所有可用工具的工具面板。",
@@ -248,9 +250,10 @@ define({
 
     // Other
     "Requirements": "依赖",
-    "Close": "关闭",
-    "Regular": "常规数据",
+    "Localization": "本地化",
+
     // curated end ----------------------------------------------------------------------------------
+
     // text from locale files auto translated by kimi
     "(empty)": "空的",
     ". (Note: you do not have to pair all unpaired datasets to finish.)": "（注意：您不必将所有未配对的数据集配对即可完成。）",
@@ -551,7 +554,6 @@ define({
     "Loading History...": "加载历史...",
     "Loading your storage data. This may take a while...": "正在加载您的存储数据。这可能需要一些时间...",
     "Local data": "本地数据",
-    "Localization": "定位",
     "Location Details": "位置详细信息",
     "Log in for details.": "登录以获取详细信息。",
     "Log in or Register": "登录或注册",
