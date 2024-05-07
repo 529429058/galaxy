@@ -10,6 +10,8 @@ define({
     "Please provide a value for this option.": "请为该选项提供一个值。",
     "Collapse/Expand": "折叠/展开",
 
+    "Show Sections": "显示分组",
+    "Hide Sections": "隐藏分组",
     // masthead
     Workflow: "流程",
     Visualize: "可视化",
@@ -530,7 +532,6 @@ define({
     "Give the exported file a name.": "给导出的文件命名。",
     "Give the new record a name or title.": "给新记录命名或标题。",
     "Groups": "群体",
-    "Hide Sections": "隐藏部分",
     "Hide datasets": "隐藏数据集",
     "Hide original elements": "隐藏原始元素",
     "Hide original elements?": "隐藏原始元素？",
@@ -763,7 +764,6 @@ define({
     "Shared Data": "共享数据",
     "Sharing": "共享",
     "Show 4 most recently updated histories instead": "显示4个最近更新的历史记录",
-    "Show Sections": "显示部分",
     "Show Structure": "显示结构",
     "Show active interactive tools": "展示活跃的交互式工具",
     "Show composite track": "显示复合轨道",
