@@ -15,6 +15,8 @@ define({
 
     "Address": "通讯地址",
 
+    "All workflows": "所有流程",
+
     // masthead
     Workflow: "流程",
     Visualize: "可视化",
@@ -307,7 +309,6 @@ define({
     "Advanced Tool Search": "高级工具搜索",
     "All": "所有",
     "All of your histories and datasets have been made private. If you'd like to make all *future* histories private please use the": "您所有的历史记录和数据集都已设为私有。如果您希望将所有*未来的*历史记录也设为私有，请使用",
-    "All workflows": "所有工作流程",
     "All your storage sources have unlimited disk space. Enjoy!": "您所有的存储来源都拥有无限的磁盘空间。享受吧！",
     "Allow push and tab notifcations on job completion. To disable, revoke the site notification privilege in your browser.": "允许在任务完成时推送和使用标签页通知。要禁用此功能，请在您的浏览器中撤销站点通知权限。",
     "Amount of items in history": "历史记录中的项目数量",
