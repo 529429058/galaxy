@@ -183,6 +183,13 @@ define({
     "Click here to reset your password.": "请点击此处重置您的密码。",
     "Don't have an account?": "还没有账号？",
     "Register here.": "这里注册。",
+
+    // Additional Options
+    "Additional Options": "其他选项",
+    "Email notification": "邮件通知",
+    "Yes": "是",
+    "No": "否",
+    "Send an email notification when the job completes.": "任务完成后发送邮件通知。",
     // curated end ----------------------------------------------------------------------------------
 
     // text from locale files auto translated by kimi
@@ -204,7 +211,6 @@ define({
     "Add parameter to tree": "添加参数到树",
     "Add tracks": "添加轨迹",
     "Adding datasets from your history": "将历史记录中的数据集添加进来",
-    "Additional Options": "额外选项",
     "Additional files": "附加文件",
     "Address": "地址",
     "Administration": "行政",
@@ -406,7 +412,6 @@ define({
     "Edit history tags": "编辑历史标签",
     "Edit settings": "编辑设置",
     "Edit this rule.": "编辑这条规则。",
-    "Email notification": "电子邮件通知",
     "Enable notifications": "启用通知",
     "Enable or disable the communication feature to chat with other users.": "启用或禁用与其他用户聊天的通信功能。",
     "Enter a name for your new collection": "请输入您新收藏的名称",
@@ -541,7 +546,6 @@ define({
     "New Type": "新类型",
     "New Visualization": "新可视化",
     "Next in History": "历史上的下一步",
-    "No": "不",
     "No History found.": "未发现历史记录。",
     "No data": "无数据",
     "No datasets were found matching the current filters.": "未找到与当前筛选条件匹配的数据集。",
@@ -690,7 +694,6 @@ define({
     "Select histories to pin to Multiview": "选择要固定到多视图的历史记录",
     "Selected": "选择的",
     "Send Notification": "发送通知",
-    "Send an email notification when the job completes.": "在工作完成时发送电子邮件通知。",
     "Server": "服务器",
     "Set as current history": "设置为当前历史",
     "Set as overview": "设定为概览",
@@ -834,7 +837,6 @@ define({
     "Wiki": "维基百科",
     "Workflow submission failed": "工作流程提交失败",
     "Workflows Missing Tools": "工作流程缺失工具",
-    "Yes": "好的",
     "Yes, permanently delete this history.": "好的，永久删除这个历史记录。",
     "You added": "您添加了",
     "You are currently viewing a deleted history!": "您目前正在查看已删除的历史记录！",
