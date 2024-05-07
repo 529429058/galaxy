@@ -6,7 +6,7 @@
                 <span
                     v-if="collapsible"
                     v-b-tooltip.hover.bottom
-                    title="Collapse/Expand"
+                    :title="localize('Collapse/Expand')"
                     variant="link"
                     size="sm"
                     class="float-right">
