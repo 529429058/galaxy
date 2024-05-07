@@ -205,6 +205,19 @@ define({
     "Click here to sign out of all sessions.": "点击这里退出登录。",
     "Do you want to continue and sign out of all active sessions?": "您是否要继续并注销所有活动会话？",
 
+    // User Preferences - managment information
+    "Configuration option for your search results": "搜索结果的配置选项",
+    "Maximum number of search results": "最大搜索结果数",
+    "Do you want to be able to re-use previously run jobs ?": "您是否希望能够重复使用之前运行过的任务？",
+    "Do you want to be able to re-use  equivalent jobs ?": "你想要能够重复使用等价的工作吗？",
+    "If you select yes, you will be able to select for each tool and workflow run if you would like to use this feature.": "如果您选择是，您将能够为每个工具和工作流程运行选择是否使用此功能。",
+    "Localization": "定位",
+    "Prefered language": "首选语言",
+    "Your Invenio RDM Account": "您的 Invenio 研究数据管理账户",
+    "Personal Token to publish records to Invenio RDM": "个人令牌，用于发布记录到 Invenio RDM（Invenio 研究数据管理器）",
+    "Public name to publish records (formatted as \"Lastname, Firstname\")": "公开发布记录的姓名（格式为“姓氏，名字”）",
+    "Whether to make new draft records publicly accessible (Yes) or restricted (No).": "是否将新草稿记录设为公开可访问（是）或受限（否）。",
+
     // Storage dashboard
     "Storage Dashboard": "存储面板",
     "Here you can see an overview of your disk usage status.": "在这里，可以看到您的磁盘使用情况概览。",
@@ -252,6 +265,7 @@ define({
     // Other
     "Requirements": "依赖",
     "Localization": "本地化",
+    "Administration": "管理",
 
     // curated end ----------------------------------------------------------------------------------
 
@@ -276,7 +290,6 @@ define({
     "Adding datasets from your history": "将历史记录中的数据集添加进来",
     "Additional files": "附加文件",
     "Address": "地址",
-    "Administration": "行政",
     "Advanced Option: View and or edit the JSON representation of the rules to apply to this tabular data": "高级选项：查看或编辑要应用于此表格数据的规则的 JSON 表示",
     "Advanced Tool Search": "高级工具搜索",
     "All": "所有",
