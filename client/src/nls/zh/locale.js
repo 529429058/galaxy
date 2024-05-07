@@ -111,7 +111,8 @@ define({
     Start: "开始",
     Pause: "暂停",
     Reset: "重置",
-    Cancel: "关闭",
+    Close: "关闭",
+    Cancel: "取消",
     Build: "构建",
     "Drop files here": "拖动文件到这里",
     // ---------------------------------------------------------------------------- composite-row
