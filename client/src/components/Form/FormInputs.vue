@@ -10,7 +10,7 @@
                         :id="conditionalPrefix(input, input.test_param.name)"
                         v-model="input.test_param.value"
                         :type="input.test_param.type"
-                        :help="input.test_param.help"
+                        :help="localize(input.test_param.help)"
                         :refresh-on-change="false"
                         :disabled="sustainConditionals"
                         :attributes="input.test_param"
