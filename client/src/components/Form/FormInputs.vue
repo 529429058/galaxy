@@ -50,7 +50,7 @@
                 :type="input.type"
                 :error="input.error"
                 :warning="input.warning"
-                :help="input.help"
+                :help="localize(input.help)"
                 :refresh-on-change="input.refresh_on_change"
                 :attributes="input.attributes || input"
                 :collapsed-enable-text="collapsedEnableText"
