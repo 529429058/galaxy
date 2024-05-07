@@ -26,6 +26,9 @@ define({
     "Select All": "全选",
     "Clear selection": "清空选择",
 
+    "Add to Favorites": "添加到收藏夹",
+    "Remove from Favorites": "从收藏中移除",
+
     // masthead
     Workflow: "流程",
     Visualize: "可视化",
