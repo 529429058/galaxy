@@ -4,7 +4,7 @@ define({
     "Built-in references were created using default options": "使用默认选项创建了内置引用。",
     "If your genome of interest is not listed, contact the Galaxy team": "如果您感兴趣的基因组未列出，请与Galaxy团队联系（微信：usegalaxy ）。",
     "Select this option for compatibility with MultiQC (--new-summary)": "选择此选项以实现与MultiQC的兼容性（--new-summary）",
-    "Output alignment summary to a file in addition to stderr. (--summary-file)": "将比对摘要输出到文件以及标准错误输出。（--summary-file）",
+    "Output alignment summary to a file in addition to stderr. (--summary-file)": "将比对摘要输出到文件以及标准错误输出（--summary-file）",
     "Current password": "当前密码",
     "New password": "新密码",
     "Please provide a value for this option.": "请为该选项提供一个值。",
@@ -12,6 +12,9 @@ define({
 
     "Show Sections": "显示分组",
     "Hide Sections": "隐藏分组",
+
+    "Address": "通讯地址",
+
     // masthead
     Workflow: "流程",
     Visualize: "可视化",
@@ -222,7 +225,6 @@ define({
     "Maximum number of search results": "最大搜索结果数",
     "Do you want to be able to re-use previously run jobs ?": "您是否希望能够重复使用之前运行过的任务？",
     "Do you want to be able to re-use  equivalent jobs ?": "你想要能够重复使用等价的工作吗？",
-    "If you select yes, you will be able to select for each tool and workflow run if you would like to use this feature.": "如果您选择是，您将能够为每个工具和工作流程运行选择是否使用此功能。",
     "Localization": "定位",
     "Prefered language": "首选语言",
     "Your Invenio RDM Account": "您的 Invenio 研究数据管理账户",
@@ -301,7 +303,6 @@ define({
     "Add tracks": "添加轨迹",
     "Adding datasets from your history": "将历史记录中的数据集添加进来",
     "Additional files": "附加文件",
-    "Address": "地址",
     "Advanced Option: View and or edit the JSON representation of the rules to apply to this tabular data": "高级选项：查看或编辑要应用于此表格数据的规则的 JSON 表示",
     "Advanced Tool Search": "高级工具搜索",
     "All": "所有",
