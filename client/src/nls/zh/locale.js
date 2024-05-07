@@ -28,6 +28,8 @@ define({
 
     "Add to Favorites": "添加到收藏夹",
     "Remove from Favorites": "从收藏中移除",
+    "Clear": "清除",
+    "Show favorites": "显示收藏夹",
 
     // masthead
     Workflow: "流程",

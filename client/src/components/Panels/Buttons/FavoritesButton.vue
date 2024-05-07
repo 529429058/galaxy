@@ -30,9 +30,9 @@ const tooltipText = computed(() => {
         return "Log in to Favorite Tools";
     } else {
         if (toggle.value) {
-            return "Clear";
+            return localize("Clear");
         } else {
-            return "Show favorites";
+            return localize("Show favorites");
         }
     }
 });
