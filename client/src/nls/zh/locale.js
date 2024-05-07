@@ -30,6 +30,7 @@ define({
     "Remove from Favorites": "从收藏中移除",
     "Clear": "清除",
     "Show favorites": "显示收藏夹",
+    "Show panel options": "显示面板选项",
 
     // masthead
     Workflow: "流程",
