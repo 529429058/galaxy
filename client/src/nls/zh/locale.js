@@ -219,7 +219,7 @@ define({
     "Whether to make new draft records publicly accessible (Yes) or restricted (No).": "是否将新草稿记录设为公开可访问（是）或受限（否）。",
 
     // Storage dashboard
-    "Storage Dashboard": "存储面板",
+    "Storage Dashboard": "存储仪表板",
     "Here you can see an overview of your disk usage status.": "在这里，可以看到您的磁盘使用情况概览。",
     "You've got": "您总共有",
     "of total disk quota": "的磁盘配额",
