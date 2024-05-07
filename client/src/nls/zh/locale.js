@@ -65,6 +65,17 @@ define({
     "Show all datasets": "显示所有数据集",
     "You have no unread notifications": "您没有未读通知",
     "Edit preferences": "编辑偏好",
+    // Activity bar setting
+    "Displays currently active interactive tools (ITs), if these are enabled by the administrator.": "显示当前活动的交互式工具（ITs），如果这些工具已被管理员启用。",
+    "Opens a data dialog, allowing uploads from URL, pasted content or disk.": "打开一个数据对话框，允许从URL、粘贴的内容或磁盘上传。",
+    "Displays the tool panel to search and access all available tools.": "显示用于搜索和访问所有可用工具的工具面板。",
+    "Displays a panel to search and access workflows.": "显示一个搜索和访问工作流的面板。",
+    "Displays all workflow runs.": "显示所有工作流运行。",
+    "Displays the list of available visualizations.": "显示可用可视化列表。",
+    "Displays the list of all histories.": "显示所有历史记录的列表。",
+    "Displays the history selector panel and opens History Multiview in the center panel.": "显示历史选择器面板，并在中心面板中打开历史多视图。",
+    "Displays all of your datasets across all histories.": "显示所有历史记录中的所有数据集。",
+    "Displays this dataset.": "显示这个数据集。",
 
     // Upload
     // ---------------------------------------------------------------------------- upload-view
