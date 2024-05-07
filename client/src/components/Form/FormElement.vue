@@ -307,7 +307,7 @@ const isOptional = computed(() => !isRequired.value && attrs.value["optional"] !
         </div>
 
         <div v-if="showPreview" class="ui-form-preview pt-1 pl-2 mt-1">{{ previewText }}</div>
-        <span v-if="Boolean(helpText)" class="ui-form-info form-text text-muted" v-html="helpText" />
+        <span v-if="Boolean(helpText)" class="ui-form-info form-text text-muted" :v-html="localize(helpText)" />
     </div>
 </template>
 
