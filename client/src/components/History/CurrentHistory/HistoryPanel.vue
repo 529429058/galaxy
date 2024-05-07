@@ -521,7 +521,7 @@ function setItemDragstart(
                     v-if="filterable"
                     class="content-operations-filters mx-3"
                     name="History Items"
-                    placeholder="search datasets"
+                    placeholder="localize('search datasets')"
                     :filter-class="filterClass"
                     :filter-text.sync="filterText"
                     :loading="isLoading"

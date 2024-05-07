@@ -16,6 +16,8 @@ define({
     "Address": "通讯地址",
 
     "All workflows": "所有流程",
+    "China": "中国",
+    "search datasets": "搜索数据集",
 
     // masthead
     Workflow: "流程",
