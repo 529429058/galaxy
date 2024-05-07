@@ -7,6 +7,7 @@ define({
     "Output alignment summary to a file in addition to stderr. (--summary-file)": "将对齐摘要输出到文件以及标准错误输出。（--summary-file）",
     "Current password": "当前密码",
     "New password": "新密码",
+    "Please provide a value for this option.": "请为该选项提供一个值。",
 
     // masthead
     Workflow: "流程",
@@ -245,10 +246,10 @@ define({
 
     // Register and log in
     "Create a Galaxy account": "创建一个Galaxy账户",
-    "Email address": "邮箱",
+    "Email address": "邮箱地址",
     "Password": "密码",
     "Confirm password": "确认密码",
-    "Public name": "账号",
+    "Public name": "账号名称",
     "Subscribe to mailing list": "订阅邮件列表",
     "Your public name is an identifier that will be used to generate addresses for information you share publicly. Public names must be at least three characters in length and contain only lower-case letters, numbers, dots, underscores, and dashes ('.', '_', '-').": "您的账号是一个标识符，将用于为您公开共享的信息生成地址。账号长度至少为3个字符，只能包含小写字母、数字、点、下划线和横线。（“.”，“_”，“-”）。",
     'Your public name is an identifier that will be used to generate addresses for information you share publicly. Public names must be at least three characters in length and contain only lower-case letters, numbers, dots, underscores, and dashes (".", "_", "-").': "您的账号是一个标识符，将用于为您公开共享的信息生成地址。账号长度至少为3个字符，只能包含小写字母、数字、点、下划线和横线。（“.”，“_”，“-”）。",
