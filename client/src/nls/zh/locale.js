@@ -287,11 +287,11 @@ define({
     "Register here.": "这里注册。",
 
     // Additional Options
-    "Additional Options": "其他选项",
-    "Email notification": "邮件通知",
+    "Additional Options": "邮件通知",
+    "Email notification": "任务完成后是否发送邮件通知?",
     "Yes": "是",
     "No": "否",
-    "Send an email notification when the job completes.": "任务完成后发送邮件通知。",
+    "Send an email notification when the job completes.": "您在使用过程中碰到任何问题，欢迎联系Galaxy团队获得支持，微信：usegalaxy，QQ群：925694514",
 
     // Other
     "Requirements": "依赖",
