@@ -190,7 +190,7 @@ async function onTagClick(tag: string) {
                             variant="outline-primary"
                             :to="`/workflows/edit?id=${workflow.id}`">
                             <FontAwesomeIcon :icon="faEdit" fixed-width />
-                            Edit
+                            <span v-localize>Edit</span>
                         </BButton>
 
                         <AsyncButton
@@ -202,13 +202,13 @@ async function onTagClick(tag: string) {
                             :icon="faUpload"
                             variant="outline-primary"
                             :action="onImport">
-                            Import
+                            <span v-localize>Import</span>
                         </AsyncButton>
 
                         <WorkflowRunButton
                             :id="workflow.id"
                             :disabled="isAnonymous || workflow.deleted"
-                            :title="runButtonTitle" />
+                            :title="localize(runButtonTitle)" />
                     </div>
                 </div>
             </div>

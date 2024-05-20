@@ -86,7 +86,7 @@ async function onRestore() {
                 variant="outline-primary"
                 @click="onCopy">
                 <FontAwesomeIcon :icon="faCopy" fixed-width />
-                <span class="compact-view">Copy</span>
+                <span class="compact-view" v-localize>Copy</span>
             </BButton>
 
             <BButton
@@ -98,7 +98,7 @@ async function onRestore() {
                 variant="outline-primary"
                 :href="downloadUrl">
                 <FontAwesomeIcon :icon="faDownload" fixed-width />
-                <span class="compact-view">Download</span>
+                <span class="compact-view" v-localize>Download</span>
             </BButton>
 
             <BButton
@@ -110,7 +110,7 @@ async function onRestore() {
                 variant="outline-primary"
                 :to="`/workflows/sharing?id=${workflow.id}`">
                 <FontAwesomeIcon :icon="faShareAlt" fixed-width />
-                <span class="compact-view">Share</span>
+                <span class="compact-view" v-localize>Share</span>
             </BButton>
 
             <BButton
@@ -122,7 +122,7 @@ async function onRestore() {
                 variant="outline-primary"
                 @click="onRestore">
                 <FontAwesomeIcon :icon="faTrashRestore" fixed-width />
-                <span class="compact-view">Restore</span>
+                <span class="compact-view" v-localize>Restore</span>
             </BButton>
         </BButtonGroup>
     </div>

@@ -49,7 +49,7 @@ function navigateToOldCreate() {
                 id="workflow-create"
                 v-b-tooltip.hover.noninteractive
                 size="sm"
-                :title="createButtonTitle"
+                :title="localize(createButtonTitle)"
                 variant="outline-primary"
                 :disabled="isAnonymous"
                 @click="navigateToOldCreate">
@@ -61,7 +61,7 @@ function navigateToOldCreate() {
                 id="workflow-import"
                 v-b-tooltip.hover.noninteractive
                 size="sm"
-                :title="importButtonTitle"
+                :title="localize(importButtonTitle)"
                 variant="outline-primary"
                 :disabled="isAnonymous"
                 @click="navigateToImport">
