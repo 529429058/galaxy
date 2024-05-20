@@ -20,6 +20,7 @@ import WorkflowInvocationsCount from "@/components/Workflow/WorkflowInvocationsC
 import WorkflowQuickView from "@/components/Workflow/WorkflowQuickView.vue";
 import WorkflowRename from "@/components/Workflow/WorkflowRename.vue";
 import WorkflowRunButton from "@/components/Workflow/WorkflowRunButton.vue";
+import localize from "@/utils/localization";
 
 library.add(faEdit, faEye, faPen, faUpload);
 

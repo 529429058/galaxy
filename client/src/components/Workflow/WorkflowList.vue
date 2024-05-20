@@ -229,7 +229,7 @@ onMounted(() => {
             <ListHeader ref="listHeader" show-view-toggle>
                 <template v-slot:extra-filter>
                     <div v-if="activeList === 'my'">
-                        Filter:
+                        <span v-localize>Filter:</span>
                         <BButton
                             id="show-deleted"
                             v-b-tooltip.hover
@@ -239,7 +239,7 @@ onMounted(() => {
                             variant="outline-primary"
                             @click="updateFilterValue('deleted', true)">
                             <FontAwesomeIcon :icon="faTrash" fixed-width />
-                            Show deleted
+                            <span v-localize>Show deleted</span>
                         </BButton>
 
                         <BButton
@@ -251,7 +251,7 @@ onMounted(() => {
                             variant="outline-primary"
                             @click="onToggleBookmarked">
                             <FontAwesomeIcon :icon="faStar" fixed-width />
-                            Show bookmarked
+                            <span v-localize>Show bookmarked</span>
                         </BButton>
                     </div>
                 </template>
@@ -262,7 +262,7 @@ onMounted(() => {
             <LoadingSpan message="Loading workflows..." />
         </BAlert>
 
-        <BAlert v-if="!loading && !overlay && noItems" id="workflow-list-empty" variant="info" show>
+        <BAlert v-if="!loading && !overlay && noItems" id="workflow-list-empty" variant="info" show v-localize>
             No workflows found. You may create or import new workflows using the buttons above.
         </BAlert>
 

@@ -48,7 +48,7 @@ defineExpose({
 <template>
     <div class="list-header">
         <div class="list-header-filters">
-            Sort by:
+            <span v-localize>Sort by:</span>
             <BButtonGroup>
                 <BButton
                     id="sortby-name"
@@ -59,7 +59,7 @@ defineExpose({
                     variant="outline-primary"
                     @click="onSort('name')">
                     <FontAwesomeIcon v-show="sortBy === 'name'" :icon="sortDesc ? faAngleDown : faAngleUp" />
-                    Name
+                    <span v-localize>Name</span>
                 </BButton>
 
                 <BButton
@@ -71,7 +71,7 @@ defineExpose({
                     variant="outline-primary"
                     @click="onSort('update_time')">
                     <FontAwesomeIcon v-show="sortBy === 'update_time'" :icon="sortDesc ? faAngleDown : faAngleUp" />
-                    Update time
+                    <span v-localize>Update time</span>
                 </BButton>
             </BButtonGroup>
 
@@ -84,7 +84,7 @@ defineExpose({
                 <BButton
                     id="view-grid"
                     v-b-tooltip
-                    title="Grid view"
+                    :title="localize('Grid view')"
                     size="sm"
                     :pressed="listViewMode === 'grid'"
                     variant="outline-primary"
@@ -95,7 +95,7 @@ defineExpose({
                 <BButton
                     id="view-list"
                     v-b-tooltip
-                    title="List view"
+                    :title="localize('List view')"
                     size="sm"
                     :pressed="listViewMode === 'list'"
                     variant="outline-primary"
