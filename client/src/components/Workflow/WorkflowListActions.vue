@@ -53,7 +53,7 @@ function navigateToOldCreate() {
                 :disabled="isAnonymous"
                 @click="navigateToOldCreate">
                 <FontAwesomeIcon :icon="faPlus" />
-                Create
+                localize("Create")
             </BButton>
 
             <BButton
@@ -63,9 +63,10 @@ function navigateToOldCreate() {
                 :title="importButtonTitle"
                 variant="outline-primary"
                 :disabled="isAnonymous"
+                v-localize
                 @click="navigateToImport">
                 <FontAwesomeIcon :icon="faUpload" />
-                Import
+                localize("Import")
             </BButton>
         </div>
     </div>

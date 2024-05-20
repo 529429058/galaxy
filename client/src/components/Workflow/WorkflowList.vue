@@ -185,18 +185,19 @@ onMounted(() => {
     <div id="workflows-list" class="workflows-list">
         <div id="workflows-list-header" class="workflows-list-header mb-2">
             <div class="d-flex flex-gapx-1">
-                <Heading h1 separator inline size="xl" class="flex-grow-1 mb-2">Workflows</Heading>
+                <Heading h1 separator inline size="xl" class="flex-grow-1 mb-2" v-localize>Workflows</Heading>
 
                 <WorkflowListActions />
             </div>
 
             <BNav pills justified class="mb-2">
-                <BNavItem id="my" :active="activeList === 'my'" :disabled="userStore.isAnonymous" to="/workflows/list">
+                <BNavItem id="my" :active="activeList === 'my'" :disabled="userStore.isAnonymous" to="/workflows/list" v-localize>
                     My workflows
                     <LoginRequired v-if="userStore.isAnonymous" target="my" title="Manage your workflows" />
                 </BNavItem>
 
                 <BNavItem
+                    v-localize
                     id="shared-with-me"
                     :active="sharedWithMe"
                     :disabled="userStore.isAnonymous"
@@ -205,7 +206,7 @@ onMounted(() => {
                     <LoginRequired v-if="userStore.isAnonymous" target="shared-with-me" title="Manage your workflows" />
                 </BNavItem>
 
-                <BNavItem id="published" :active="published" to="/workflows/list_published">
+                <BNavItem id="published" :active="published" to="/workflows/list_published" v-localize>
                     Public workflows
                 </BNavItem>
             </BNav>
