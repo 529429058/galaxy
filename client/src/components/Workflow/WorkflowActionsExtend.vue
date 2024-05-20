@@ -86,7 +86,7 @@ async function onRestore() {
                 variant="outline-primary"
                 @click="onCopy">
                 <FontAwesomeIcon :icon="faCopy" fixed-width />
-                <span class="compact-view" v-localize>Copy</span>
+                <span class="compact-view" v-localize>Copy1</span>
             </BButton>
 
             <BButton
