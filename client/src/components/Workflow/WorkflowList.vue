@@ -191,23 +191,22 @@ onMounted(() => {
             </div>
 
             <BNav pills justified class="mb-2">
-                <BNavItem id="my" :active="activeList === 'my'" :disabled="userStore.isAnonymous" to="/workflows/list" v-localize>
-                    My workflows
+                <BNavItem id="my" :active="activeList === 'my'" :disabled="userStore.isAnonymous" to="/workflows/list">
+                    localize('My workflows')
                     <LoginRequired v-if="userStore.isAnonymous" target="my" title="Manage your workflows" />
                 </BNavItem>
 
                 <BNavItem
-                    v-localize
                     id="shared-with-me"
                     :active="sharedWithMe"
                     :disabled="userStore.isAnonymous"
                     to="/workflows/list_shared_with_me">
-                    Workflows shared with me
+                    localize('Workflows shared with me')
                     <LoginRequired v-if="userStore.isAnonymous" target="shared-with-me" title="Manage your workflows" />
                 </BNavItem>
 
-                <BNavItem id="published" :active="published" to="/workflows/list_published" v-localize>
-                    Public workflows
+                <BNavItem id="published" :active="published" to="/workflows/list_published">
+                    localize('Public workflows')
                 </BNavItem>
             </BNav>
 
