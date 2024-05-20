@@ -64,30 +64,30 @@ const description = computed(() => {
 });
 const editButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to edit Workflow";
+        return localize("Log in to edit Workflow");
     } else {
         if (workflow.value.deleted) {
-            return "You cannot edit a deleted workflow. Restore it first.";
+            return localize("You cannot edit a deleted workflow. Restore it first.");
         } else {
-            return "Edit Workflow";
+            return localize("Edit Workflow");
         }
     }
 });
 const importedButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to import workflow";
+        return localize("Log in to import workflow");
     } else {
-        return "Import this workflow to edit";
+        return localize("Import this workflow to edit");
     }
 });
 const runButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to run workflow";
+        return localize("Log in to run workflow");
     } else {
         if (workflow.value.deleted) {
-            return "You cannot run a deleted workflow. Restore it first.";
+            return localize("You cannot run a deleted workflow. Restore it first.");
         } else {
-            return "Run workflow";
+            return localize("Run workflow");
         }
     }
 });

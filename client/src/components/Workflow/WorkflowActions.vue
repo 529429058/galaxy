@@ -128,7 +128,7 @@ const actions: ComputedRef<(AAction | BAction)[]> = computed(() => {
             class: "workflow-bookmark-button-add",
             component: "async",
             title: "Add bookmarks",
-            tooltip: "Add to bookmarks. This workflow will appear in the left tool panel.",
+            tooltip: localize("Add to bookmarks. This workflow will appear in the left tool panel."),
             icon: farStar,
             size: props.buttonSize,
             variant: "link",
@@ -139,7 +139,7 @@ const actions: ComputedRef<(AAction | BAction)[]> = computed(() => {
             class: "workflow-bookmark-button-remove",
             component: "async",
             title: "Remove bookmark",
-            tooltip: "Remove bookmark",
+            tooltip: localize("Remove bookmark"),
             icon: faStar,
             size: props.buttonSize,
             variant: "link",
@@ -150,7 +150,7 @@ const actions: ComputedRef<(AAction | BAction)[]> = computed(() => {
             class: "workflow-view-button",
             component: "button",
             title: "View workflow",
-            tooltip: "View workflow",
+            tooltip: localize("View workflow"),
             icon: faEye,
             size: props.buttonSize,
             variant: "link",
@@ -165,8 +165,8 @@ const menuActions: ComputedRef<BAction[]> = computed(() => {
             condition: !isAnonymous.value && !shared.value && !props.workflow.deleted,
             class: "workflow-delete-button",
             component: "button",
-            title: "Delete workflow",
-            tooltip: "Delete workflow",
+            title: localize("Delete workflow"),
+            tooltip: localize("Delete workflow"),
             icon: faTrash,
             size: props.buttonSize,
             variant: "link",
@@ -187,7 +187,7 @@ const menuActions: ComputedRef<BAction[]> = computed(() => {
             condition: sourceType.value == "url",
             class: "workflow-view-external-link-button",
             component: "button",
-            title: "View external link",
+            title: localize("View external link"),
             href: props.workflow.source_metadata?.url,
             target: "_blank",
             icon: faExternalLinkAlt,
@@ -198,7 +198,7 @@ const menuActions: ComputedRef<BAction[]> = computed(() => {
             condition: !props.workflow.deleted,
             class: "workflow-export-button",
             component: "button",
-            title: "Export",
+            title: localize("Export"),
             icon: faFileExport,
             size: props.buttonSize,
             variant: "link",
@@ -244,7 +244,7 @@ const menuActions: ComputedRef<BAction[]> = computed(() => {
             no-caret
             class="workflow-actions-dropdown"
             toggle-class="inline-icon-button"
-            title="Workflow actions"
+            :title="localize('Workflow actions')"
             variant="link">
             <template v-slot:button-content>
                 <FontAwesomeIcon :icon="faCaretDown" fixed-width />
