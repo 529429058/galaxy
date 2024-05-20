@@ -1,11 +1,11 @@
 <template>
     <div v-if="currentUser && currentHistoryId" class="workflow-expanded-form">
         <div class="h4 clearfix mb-3">
-            <b>localize("Workflow"): {{ model.name }}</b>
+            <b><span v-localize>Workflow</span>: {{ model.name }}</b>
             <ButtonSpinner
                 id="run-workflow"
                 class="float-right"
-                title="Run Workflow"
+                :title="localize('Run Workflow')"
                 :wait="showExecuting"
                 @onClick="onExecute" />
         </div>

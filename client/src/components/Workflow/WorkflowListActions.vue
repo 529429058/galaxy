@@ -20,16 +20,16 @@ const { isAnonymous } = storeToRefs(userStore);
 
 const createButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to create workflow";
+        return localize("Log in to create workflow");
     } else {
-        return "Create new workflow";
+        return localize("Create new workflow");
     }
 });
 const importButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to import workflow";
+        return localize("Log in to import workflow");
     } else {
-        return "Import workflow from URL or file";
+        return localize("Import workflow from URL or file");
     }
 });
 
@@ -54,7 +54,7 @@ function navigateToOldCreate() {
                 :disabled="isAnonymous"
                 @click="navigateToOldCreate">
                 <FontAwesomeIcon :icon="faPlus" />
-                localize("Create")
+                <span v-localize>Create</span>
             </BButton>
 
             <BButton
@@ -66,7 +66,7 @@ function navigateToOldCreate() {
                 :disabled="isAnonymous"
                 @click="navigateToImport">
                 <FontAwesomeIcon :icon="faUpload" />
-                localize("Import")
+                <span v-localize>Import</span>
             </BButton>
         </div>
     </div>

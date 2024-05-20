@@ -17,6 +17,7 @@ import LoadingSpan from "@/components/LoadingSpan.vue";
 import WorkflowGraph from "@/components/Workflow/Editor/WorkflowGraph.vue";
 import WorkflowInformation from "@/components/Workflow/Published/WorkflowInformation.vue";
 import WorkflowRunButton from "@/components/Workflow/WorkflowRunButton.vue";
+import localize from "@/utils/localization";
 
 const props = defineProps<{
     id: string;
@@ -47,9 +48,9 @@ const workflowInfo = ref<
 
 const runButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to run workflow";
+        return localize("Log in to run workflow");
     } else {
-        return "Run workflow";
+        return localize("Run workflow");
     }
 });
 
@@ -99,7 +100,7 @@ watch(
         <div v-else class="workflow-preview-container h-100">
             <div class="w-100">
                 <span class="d-flex mb-2 flex-gapx-1">
-                    <Heading h1 separator inline size="xl" class="flex-grow-1 mb-0"> Workflow Preview </Heading>
+                    <Heading h1 separator inline size="xl" class="flex-grow-1 mb-0" v-localize> Workflow Preview </Heading>
 
                     <WorkflowRunButton :id="props.id" :title="runButtonTitle" :disabled="isAnonymous" full />
                 </span>
