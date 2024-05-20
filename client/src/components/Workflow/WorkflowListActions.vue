@@ -2,6 +2,7 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPlus, faUpload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import localize from "@/utils/localization";
 import { BButton } from "bootstrap-vue";
 import { storeToRefs } from "pinia";
 import { computed } from "vue";
@@ -63,7 +64,6 @@ function navigateToOldCreate() {
                 :title="importButtonTitle"
                 variant="outline-primary"
                 :disabled="isAnonymous"
-                v-localize
                 @click="navigateToImport">
                 <FontAwesomeIcon :icon="faUpload" />
                 localize("Import")
