@@ -20,16 +20,16 @@ const { isAnonymous } = storeToRefs(userStore);
 
 const createButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to create workflow";
+        return localize("Log in to create workflow");
     } else {
-        return "Create new workflow";
+        return localize("Create new workflow");
     }
 });
 const importButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to import workflow";
+        return localize("Log in to import workflow");
     } else {
-        return "Import workflow from URL or file";
+        return localize("Import workflow from URL or file");
     }
 });
 
@@ -49,7 +49,7 @@ function navigateToOldCreate() {
                 id="workflow-create"
                 v-b-tooltip.hover.noninteractive
                 size="sm"
-                :title="localize(createButtonTitle)"
+                :title="createButtonTitle"
                 variant="outline-primary"
                 :disabled="isAnonymous"
                 @click="navigateToOldCreate">
@@ -61,7 +61,7 @@ function navigateToOldCreate() {
                 id="workflow-import"
                 v-b-tooltip.hover.noninteractive
                 size="sm"
-                :title="localize(importButtonTitle)"
+                :title="importButtonTitle"
                 variant="outline-primary"
                 :disabled="isAnonymous"
                 @click="navigateToImport">
