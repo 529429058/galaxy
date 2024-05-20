@@ -150,7 +150,7 @@ async function onTagClick(tag: string) {
                         class="inline-icon-button workflow-rename"
                         variant="link"
                         size="sm"
-                        title="Rename"
+                        :title="localize('Rename')"
                         @click="showRename = !showRename">
                         <FontAwesomeIcon :icon="faPen" fixed-width />
                     </BButton>
@@ -191,7 +191,7 @@ async function onTagClick(tag: string) {
                             variant="outline-primary"
                             :to="`/workflows/edit?id=${workflow.id}`">
                             <FontAwesomeIcon :icon="faEdit" fixed-width />
-                            <span class="compact-view" v-localize>Edit</span>
+                            <!--<span class="compact-view" v-localize>Edit</span>-->
                         </BButton>
 
                         <AsyncButton
