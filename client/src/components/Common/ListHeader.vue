@@ -79,7 +79,7 @@ defineExpose({
         </div>
 
         <div v-if="showViewToggle">
-            Display:
+            <span v-localize>Display:</span>
             <BButtonGroup>
                 <BButton
                     id="view-grid"
