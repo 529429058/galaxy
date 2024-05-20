@@ -21,6 +21,7 @@ import { Toast } from "@/composables/toast";
 import { useUserStore } from "@/stores/userStore";
 
 import AsyncButton from "@/components/Common/AsyncButton.vue";
+import localize from "@/utils/localization";
 
 library.add(faCaretDown, faExternalLinkAlt, faEye, faFileExport, farStar, faStar, faTrash);
 
