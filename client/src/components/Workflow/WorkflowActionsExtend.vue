@@ -82,7 +82,7 @@ async function onRestore() {
                 id="workflow-copy-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Copy"
+                :title="localize('Copy')"
                 variant="outline-primary"
                 @click="onCopy">
                 <FontAwesomeIcon :icon="faCopy" fixed-width />
@@ -94,7 +94,7 @@ async function onRestore() {
                 id="workflow-download-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Download workflow in .ga format"
+                :title="localize('Download workflow in .ga format')"
                 variant="outline-primary"
                 :href="downloadUrl">
                 <FontAwesomeIcon :icon="faDownload" fixed-width />
@@ -106,7 +106,7 @@ async function onRestore() {
                 id="workflow-share-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Share"
+                :title="localize('Share')"
                 variant="outline-primary"
                 :to="`/workflows/sharing?id=${workflow.id}`">
                 <FontAwesomeIcon :icon="faShareAlt" fixed-width />
@@ -118,7 +118,7 @@ async function onRestore() {
                 id="restore-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Restore"
+                :title="localize('Restore')"
                 variant="outline-primary"
                 @click="onRestore">
                 <FontAwesomeIcon :icon="faTrashRestore" fixed-width />
