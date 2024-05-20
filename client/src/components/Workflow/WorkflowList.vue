@@ -192,7 +192,7 @@ onMounted(() => {
 
             <BNav pills justified class="mb-2">
                 <BNavItem id="my" :active="activeList === 'my'" :disabled="userStore.isAnonymous" to="/workflows/list">
-                    localize('My workflows')
+                    <span v-localize>My workflows</span>
                     <LoginRequired v-if="userStore.isAnonymous" target="my" title="Manage your workflows" />
                 </BNavItem>
 
@@ -201,12 +201,12 @@ onMounted(() => {
                     :active="sharedWithMe"
                     :disabled="userStore.isAnonymous"
                     to="/workflows/list_shared_with_me">
-                    localize('Workflows shared with me')
+                    <span v-localize>Workflows shared with me</span>
                     <LoginRequired v-if="userStore.isAnonymous" target="shared-with-me" title="Manage your workflows" />
                 </BNavItem>
 
                 <BNavItem id="published" :active="published" to="/workflows/list_published">
-                    localize('Public workflows')
+                    <span v-localize>Public workflows</span>
                 </BNavItem>
             </BNav>
 
