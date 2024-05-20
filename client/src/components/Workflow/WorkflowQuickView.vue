@@ -17,6 +17,7 @@ import LoadingSpan from "@/components/LoadingSpan.vue";
 import WorkflowGraph from "@/components/Workflow/Editor/WorkflowGraph.vue";
 import WorkflowInformation from "@/components/Workflow/Published/WorkflowInformation.vue";
 import WorkflowRunButton from "@/components/Workflow/WorkflowRunButton.vue";
+import localize from "@/utils/localization";
 
 const props = defineProps<{
     id: string;
