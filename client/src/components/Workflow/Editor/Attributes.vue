@@ -4,7 +4,7 @@
             {{ message }}
         </b-alert>
         <div id="workflow-name-area">
-            <b>Name</b>
+            <b v-localize>Name</b>
             <meta itemprop="name" :content="name" />
             <b-input
                 id="workflow-name"
@@ -13,7 +13,7 @@
                 @keyup="$emit('update:nameCurrent', nameCurrent)" />
         </div>
         <div v-if="versionOptions.length > 0" id="workflow-version-area" class="mt-2">
-            <b>Version</b>
+            <b v-localize>Version</b>
             <b-form-select v-model="versionCurrent" @change="onVersion">
                 <b-form-select-option v-for="v in versionOptions" :key="v.version" :value="v.version">
                     {{ v.label }}
