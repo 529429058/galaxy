@@ -21,7 +21,7 @@
             </b-form-select>
         </div>
         <div v-if="hasParameters" id="workflow-parameters-area" class="mt-2">
-            <b>Parameters</b>
+            <b v-localize>Parameters</b>
             <b-list-group>
                 <b-list-group-item v-for="[key, p] in parameters.parameters.entries()" :key="key"
                     >{{ key + 1 }}: {{ p.name }}
@@ -29,26 +29,26 @@
             </b-list-group>
         </div>
         <div id="workflow-annotation-area" class="mt-2">
-            <b>Annotation</b>
+            <b v-localize>Annotation</b>
             <meta itemprop="description" :content="annotationCurrent" />
             <b-textarea
                 id="workflow-annotation"
                 v-model="annotationCurrent"
                 @keyup="$emit('update:annotationCurrent', annotationCurrent)" />
-            <div class="form-text text-muted">These notes will be visible when this workflow is viewed.</div>
+            <div class="form-text text-muted" v-localize>These notes will be visible when this workflow is viewed.</div>
         </div>
         <div id="workflow-license-area" class="mt-2">
-            <b>License</b>
+            <b v-localize>License</b>
             <LicenseSelector :input-license="license" @onLicense="onLicense" />
         </div>
         <div id="workflow-creator-area" class="mt-2">
-            <b>Creator</b>
+            <b v-localize>Creator</b>
             <CreatorEditor :creators="creatorAsList" @onCreators="onCreator" />
         </div>
         <div class="mt-2">
-            <b>Tags</b>
+            <b v-localize>Tags</b>
             <StatelessTags :value="tagsCurrent" @input="onTags" />
-            <div class="form-text text-muted">
+            <div class="form-text text-muted" v-localize>
                 Apply tags to make it easy to search for and find items with the same tag.
             </div>
         </div>

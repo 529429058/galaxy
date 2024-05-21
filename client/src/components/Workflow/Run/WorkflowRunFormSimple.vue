@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-if="isConfigLoaded" class="h4 clearfix mb-3">
-            <b><span v-localize>Workflow</span>: {{ model.name }}</b>
+            <b><span v-localize>Workflow:</span> {{ model.name }}</b>
             <ButtonSpinner
                 id="run-workflow"
                 :wait="waitingForRequest"
