@@ -224,6 +224,7 @@ async function onTagClick(tag: string) {
             <BModal
                 v-model="showPreview"
                 ok-only
+                :ok-title="localize('Okay')"
                 size="xl"
                 hide-header
                 dialog-class="workflow-card-preview-modal w-auto"
