@@ -132,7 +132,7 @@ async function resumePausedJobs() {
 <template>
     <div>
         <nav class="d-flex justify-content-between mx-3 my-2" aria-label="current history management">
-            <h2 class="m-1 h-sm">History</h2>
+            <h2 class="m-1 h-sm" v-localize>History</h2>
 
             <BButtonGroup>
                 <BButton
@@ -165,7 +165,7 @@ async function resumePausedJobs() {
                     variant="link"
                     toggle-class="text-decoration-none"
                     menu-class="history-options-button-menu"
-                    title="History options"
+                    :title="userTitle('History options')"
                     data-description="history options">
                     <template v-slot:button-content>
                         <FontAwesomeIcon fixed-width :icon="faBars" />
@@ -178,7 +178,7 @@ async function resumePausedJobs() {
                             <span>Fetching histories from server</span>
                         </div>
 
-                        <span v-else>You have {{ totalHistoryCount }} histories.</span>
+                        <span v-else>{{ localize("You have") }} {{ totalHistoryCount }} {{ localize("histories.") }}</span>
                     </BDropdownText>
 
                     <BDropdownItem

@@ -2,6 +2,7 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPlus, faUpload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import localize from "@/utils/localization";
 import { BButton } from "bootstrap-vue";
 import { storeToRefs } from "pinia";
 import { computed } from "vue";
@@ -19,16 +20,16 @@ const { isAnonymous } = storeToRefs(userStore);
 
 const createButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to create workflow";
+        return localize("Log in to create workflow");
     } else {
-        return "Create new workflow";
+        return localize("Create new workflow");
     }
 });
 const importButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to import workflow";
+        return localize("Log in to import workflow");
     } else {
-        return "Import workflow from URL or file";
+        return localize("Import workflow from URL or file");
     }
 });
 
@@ -53,7 +54,7 @@ function navigateToOldCreate() {
                 :disabled="isAnonymous"
                 @click="navigateToOldCreate">
                 <FontAwesomeIcon :icon="faPlus" />
-                Create
+                <span v-localize>Create</span>
             </BButton>
 
             <BButton
@@ -65,7 +66,7 @@ function navigateToOldCreate() {
                 :disabled="isAnonymous"
                 @click="navigateToImport">
                 <FontAwesomeIcon :icon="faUpload" />
-                Import
+                <span v-localize>Import</span>
             </BButton>
         </div>
     </div>

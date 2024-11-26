@@ -7,13 +7,13 @@
                     or send the results to a new one using the run settings ⚙️
                 </span>
             </BAlert>
-            <b>Workflow: {{ model.name }}</b> <i>(version: {{ model.runData.version + 1 }})</i>
+            <b><span v-localize>Workflow</span>: {{ model.name }}</b> <i>(version: {{ model.runData.version + 1 }})</i>
             <ButtonSpinner
                 id="run-workflow"
                 :wait="waitingForRequest"
                 :disabled="hasValidationErrors || !canRunOnHistory"
                 class="float-right"
-                title="Run Workflow"
+                :title="localize('Run Workflow')"
                 @onClick="onExecute" />
             <b-dropdown
                 v-if="showRuntimeSettings(currentUser)"
@@ -21,22 +21,24 @@
                 ref="dropdown"
                 class="workflow-run-settings float-right"
                 style="margin-right: 10px"
-                title="Workflow Run Settings"
+                :title="localize('Workflow Run Settings')"
                 no-caret>
                 <template v-slot:button-content>
                     <span class="fa fa-cog" />
                 </template>
                 <b-dropdown-form>
-                    <b-form-checkbox v-model="sendToNewHistory" class="workflow-run-settings-target">
+                    <b-form-checkbox v-model="sendToNewHistory" class="workflow-run-settings-target" v-localize>
                         Send results to a new history
                     </b-form-checkbox>
                     <b-form-checkbox
+                        v-localize
                         v-if="reuseAllowed(currentUser)"
                         v-model="useCachedJobs"
-                        title="This may skip executing jobs that you have already run.">
+                        :title="localize('This may skip executing jobs that you have already run.')">
                         Attempt to re-use jobs with identical parameters?
                     </b-form-checkbox>
                     <b-form-checkbox
+                        v-localize
                         v-if="isConfigLoaded && config.object_store_allows_id_selection"
                         v-model="splitObjectStore">
                         Send outputs and intermediate to different storage locations?
@@ -57,7 +59,7 @@
             @onChange="onChange"
             @onValidation="onValidation" />
         <!-- Options to default one way or the other, disable if admins want, etc.. -->
-        <a href="#" class="workflow-expand-form-link" @click="$emit('showAdvanced')">Expand to full workflow form.</a>
+        <a href="#" class="workflow-expand-form-link" @click="$emit('showAdvanced')" v-localize>Expand to full workflow form.</a>
     </div>
 </template>
 

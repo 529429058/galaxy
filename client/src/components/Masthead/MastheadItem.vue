@@ -83,7 +83,7 @@ function open(tab, event) {
         @click="open(tab, $event)">
         <template v-if="tab.icon">
             <!-- If this is an icon-based tab, inject tooltip directly for screen readers -->
-            <span class="sr-only">{{ tab.tooltip || tab.id }}</span>
+            <span class="sr-only">{{ localize(tab.tooltip || tab.id) }}</span>
             <span :class="iconClasses" />
             <span v-if="toggle" class="nav-note fa fa-check" />
         </template>

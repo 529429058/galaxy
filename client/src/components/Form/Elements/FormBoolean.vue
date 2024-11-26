@@ -24,6 +24,6 @@ const label = computed(() => (currentValue.value ? "Yes" : "No"));
 
 <template>
     <b-form-checkbox v-model="currentValue" class="no-highlight" switch>
-        {{ label }}
+        {{ localize(label) }}
     </b-form-checkbox>
 </template>

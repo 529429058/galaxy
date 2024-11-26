@@ -7,35 +7,35 @@
             </span>
         </BAlert>
         <div class="h4 clearfix mb-3">
-            <b>Workflow: {{ model.name }}</b> <i>(version: {{ model.runData.version + 1 }})</i>
+            <b><span v-localize>Workflow</span>: {{ model.name }}</b> <i>(version: {{ model.runData.version + 1 }})</i>
             <ButtonSpinner
                 id="run-workflow"
                 class="float-right"
-                title="Run Workflow"
+                :title="localize('Run Workflow')"
                 :disabled="!canRunOnHistory"
                 :wait="showExecuting"
                 @onClick="onExecute" />
         </div>
-        <FormCard v-if="wpInputsAvailable" title="Workflow Parameters">
+        <FormCard v-if="wpInputsAvailable" :title="localize('Workflow Parameters')">
             <template v-slot:body>
                 <FormDisplay :inputs="wpInputs" @onChange="onWpInputs" />
             </template>
         </FormCard>
-        <FormCard title="History Options">
+        <FormCard :title="localize('History Options')">
             <template v-slot:body>
                 <FormDisplay :inputs="historyInputs" @onChange="onHistoryInputs" />
             </template>
         </FormCard>
-        <FormCard v-if="reuseAllowed(currentUser)" title="Job re-use Options">
+        <FormCard v-if="reuseAllowed(currentUser)" :title="localize('Job re-use Options')">
             <template v-slot:body>
                 <FormElement
                     v-model="useCachedJobs"
-                    title="Attempt to re-use jobs with identical parameters?"
-                    help="This may skip executing jobs that you have already run."
+                    :title="localize('Attempt to re-use jobs with identical parameters?')"
+                    :help="localize('This may skip executing jobs that you have already run.')"
                     type="boolean" />
             </template>
         </FormCard>
-        <FormCard v-if="resourceInputsAvailable" title="Workflow Resource Options">
+        <FormCard v-if="resourceInputsAvailable" :title="localize('Workflow Resource Options')">
             <template v-slot:body>
                 <FormDisplay :inputs="resourceInputs" @onChange="onResourceInputs" />
             </template>

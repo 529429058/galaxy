@@ -13,9 +13,9 @@ function onQuery(newQuery: string) {
 </script>
 
 <template>
-    <ActivityPanel title="Settings" go-to-all-title="User Preferences" href="/user">
+    <ActivityPanel title="Settings" :go-to-all-title="localize('User Preferences')" href="/user">
         <template v-slot:header>
-            <h3>Customize Activity Bar</h3>
+            <h3 v-localize>Customize Activity Bar</h3>
             <DelayedInput :delay="100" placeholder="Search activities" @change="onQuery" />
         </template>
         <ActivitySettings :query="query" />

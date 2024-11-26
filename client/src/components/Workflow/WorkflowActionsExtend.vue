@@ -100,11 +100,11 @@ function onCopyPublicLink() {
                 id="workflow-copy-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Copy"
+                :title="localize('Copy')"
                 variant="outline-primary"
                 @click="onCopy">
                 <FontAwesomeIcon :icon="faCopy" fixed-width />
-                <span class="compact-view">Copy</span>
+                <span class="compact-view" v-localize>Copy</span>
             </BButton>
 
             <BButton
@@ -112,11 +112,11 @@ function onCopyPublicLink() {
                 id="workflow-download-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Download workflow in .ga format"
+                :title="localize('Download workflow in .ga format')"
                 variant="outline-primary"
                 :href="downloadUrl">
                 <FontAwesomeIcon :icon="faDownload" fixed-width />
-                <span class="compact-view">Download</span>
+                <span class="compact-view" v-localize>Download</span>
             </BButton>
 
             <BButton
@@ -124,11 +124,11 @@ function onCopyPublicLink() {
                 id="workflow-share-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Share"
+                :title="localize('Share')"
                 variant="outline-primary"
                 :to="`/workflows/sharing?id=${workflow.id}`">
                 <FontAwesomeIcon :icon="faShareAlt" fixed-width />
-                <span class="compact-view">Share</span>
+                <span class="compact-view" v-localize>Share</span>
             </BButton>
 
             <BButton
@@ -136,11 +136,11 @@ function onCopyPublicLink() {
                 id="restore-button"
                 v-b-tooltip.hover.noninteractive
                 :size="buttonSize"
-                title="Restore"
+                :title="localize('Restore')"
                 variant="outline-primary"
                 @click="onRestore">
                 <FontAwesomeIcon :icon="faTrashRestore" fixed-width />
-                <span class="compact-view">Restore</span>
+                <span class="compact-view" v-localize>Restore</span>
             </BButton>
         </BButtonGroup>
     </div>

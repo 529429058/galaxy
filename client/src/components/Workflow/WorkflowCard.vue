@@ -20,6 +20,7 @@ import WorkflowIndicators from "@/components/Workflow/WorkflowIndicators.vue";
 import WorkflowInvocationsCount from "@/components/Workflow/WorkflowInvocationsCount.vue";
 import WorkflowRename from "@/components/Workflow/WorkflowRename.vue";
 import WorkflowRunButton from "@/components/Workflow/WorkflowRunButton.vue";
+import localize from "@/utils/localization";
 
 library.add(faEdit, faEye, faPen, faUpload);
 
@@ -64,30 +65,30 @@ const description = computed(() => {
 });
 const editButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to edit Workflow";
+        return localize("Log in to edit Workflow");
     } else {
         if (workflow.value.deleted) {
-            return "You cannot edit a deleted workflow. Restore it first.";
+            return localize("You cannot edit a deleted workflow. Restore it first.");
         } else {
-            return "Edit Workflow";
+            return localize("Edit Workflow");
         }
     }
 });
 const importedButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to import workflow";
+        return localize("Log in to import workflow");
     } else {
-        return "Import this workflow to edit";
+        return localize("Import this workflow to edit");
     }
 });
 const runButtonTitle = computed(() => {
     if (isAnonymous.value) {
-        return "Log in to run workflow";
+        return localize("Log in to run workflow");
     } else {
         if (workflow.value.deleted) {
-            return "You cannot run a deleted workflow. Restore it first.";
+            return localize("You cannot run a deleted workflow. Restore it first.");
         } else {
-            return "Run workflow";
+            return localize("Run workflow");
         }
     }
 });
@@ -149,7 +150,7 @@ async function onTagClick(tag: string) {
                         class="inline-icon-button workflow-rename"
                         variant="link"
                         size="sm"
-                        title="Rename"
+                        :title="localize('Rename')"
                         @click="showRename = !showRename">
                         <FontAwesomeIcon :icon="faPen" fixed-width />
                     </BButton>
@@ -190,7 +191,7 @@ async function onTagClick(tag: string) {
                             variant="outline-primary"
                             :to="`/workflows/edit?id=${workflow.id}`">
                             <FontAwesomeIcon :icon="faEdit" fixed-width />
-                            Edit
+                            <span class="compact-view" v-localize>Edit</span>
                         </BButton>
 
                         <AsyncButton
@@ -202,13 +203,13 @@ async function onTagClick(tag: string) {
                             :icon="faUpload"
                             variant="outline-primary"
                             :action="onImport">
-                            Import
+                            <span v-localize>Import</span>
                         </AsyncButton>
 
                         <WorkflowRunButton
                             :id="workflow.id"
                             :disabled="isAnonymous || workflow.deleted"
-                            :title="runButtonTitle" />
+                            :title="localize(runButtonTitle)" />
                     </div>
                 </div>
             </div>
@@ -223,6 +224,7 @@ async function onTagClick(tag: string) {
             <BModal
                 v-model="showPreview"
                 ok-only
+                :ok-title="localize('Ok')"
                 size="xl"
                 hide-header
                 dialog-class="workflow-card-preview-modal w-auto"
